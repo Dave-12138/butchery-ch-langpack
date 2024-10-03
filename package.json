@@ -1,3 +1,7 @@
 {
-    "type": "module"
+    "type": "module",
+    "scripts": {
+        "diff": "node \".\\辅助汉化的神奇妙妙脚本.js\"",
+        "merge": "set STEP=merge && node \".\\辅助汉化的神奇妙妙脚本.js\""
+    }
 }
