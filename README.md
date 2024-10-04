@@ -3,8 +3,7 @@
 ## 使用方法
 1. 下载资源包
     - 点[这个链接](../../releases)，下载`butcher-cn.zip`
-    - 或者点右上方那个绿色的 Code 按钮，然后点 Download Zip 
-2. 把下载的压缩包放进 resourcepacks 文件夹里，右键点击压缩包，“解压到当前文件夹”
+2. 把下载的压缩包放进 resourcepacks 文件夹里
 3. 在游戏中启用
     - 依次进入“选项”、“资源包”
     - 在左侧找到有**Butchery汉化**字样的zip，点击▶️形按钮
