@@ -2,7 +2,7 @@
 
 ## 使用方法
 1. 下载资源包
-    - 点[这个链接](../../release)，下载`Butchery汉化.zip`
+    - 点[这个链接](../../releases)，下载`Butchery汉化.zip`
     - 或者点右上方那个绿色的 Code 按钮，然后点 Download Zip 
 2. 把下载的压缩包放进 resourcepacks 文件夹里，右键点击压缩包，“解压到当前文件夹”
 3. 在游戏中启用
