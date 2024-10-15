@@ -8,7 +8,7 @@ function write(filename, content, rootDir) {
     const path = rootDir ? "./" : "./assets/butcher/lang/";
     fs.writeFileSync(path + filename, content instanceof Object ? JSON.stringify(content) : content, { encoding: "utf8", flag: "w+" });
 }
-const en0 = read('old_en_us.json');
+const en0 = read('old_en_us.json', true);
 const zh = read('zh_cn.json');
 try {
     const en = read('en_us.json', true);
@@ -21,7 +21,7 @@ try {
         // 归并
         const diff = read("diff.json", true);
         write("zh_cn.json", Object.keys(zh).concat(Object.keys(diff)).reduce((pv, v) => Object.assign(pv, { [v]: diff[v] || zh[v] || "" }), {}));
-        write("old_en_us.json", en);
+        write("old_en_us.json", en, true);
     }
 } catch (e) {
     console.log(e)
