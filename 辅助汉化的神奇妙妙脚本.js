@@ -15,9 +15,10 @@ try {
     const uparam = {
         diff() {
             const changedKeys = Object.keys(en).filter(k => en[k] !== en0[k]);
+            const toTableTuple = k => [k, en0[k], en[k], zh[k]].map(r => r ?? "<empty>");
             write("diff.json", changedKeys.reduce((p, v) => Object.assign(p, { [v]: zh[v] ? zh[v] + `(${en[v]})` : en[v] }), {}), true);
-            write("diff2.json", changedKeys.map(k => [k, en0[k], en[k], zh[k]].map(r => r ?? "<empty>")), true);
-            write("diff3.json", Object.keys(zh).map(k => [k, en0[k], en[k], zh[k]].map(r => r ?? "<empty>")), true);
+            write("diff2.json", changedKeys.map(toTableTuple), true);
+            write("diff3.json", Object.keys(zh).map(toTableTuple), true);
         },
         merge() {
             // 归并
