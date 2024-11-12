@@ -1160,5 +1160,10 @@
     "block.butcher.cavespider_3leg": "洞穴蜘蛛",
     "block.butcher.drained_zombie": "僵尸",
     "block.butcher.hangingdrownedlegless": "溺尸",
-    "block.butcher.pillagerbodyless": "掠夺者"
+    "block.butcher.pillagerbodyless": "掠夺者",
+    "block.butcher.saltwater": "盐水",
+    "fluid.butcher.saltwater": "盐水",
+    "item.butcher.witherbonemeal": "凋灵骨粉",
+    "item.butcher.bucketofsalt": "盐桶",
+    "item.butcher.saltwater_bucket": "盐水桶"
 }
