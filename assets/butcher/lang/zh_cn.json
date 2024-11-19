@@ -1165,5 +1165,8 @@
     "fluid.butcher.saltwater": "盐水",
     "item.butcher.witherbonemeal": "凋灵骨粉",
     "item.butcher.bucketofsalt": "盐桶",
-    "item.butcher.saltwater_bucket": "盐水桶"
+    "item.butcher.saltwater_bucket": "盐水桶",
+    "block.butcher.bloodgratetank": "排血渠",
+    "block.butcher.butcherspapersblock": "散装屠夫指南",
+    "life_essence_fluid_type": "生命源质"
 }
