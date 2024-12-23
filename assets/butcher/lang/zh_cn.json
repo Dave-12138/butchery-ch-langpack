@@ -1267,5 +1267,15 @@
     "block.butcher.hangingplayerleftleg": "尸体",
     "block.butcher.hangingplayerstomach": "尸体",
     "block.butcher.hangingplayerheadless": "尸体",
-    "block.butcher.hangingplayercorpse": "尸体"
+    "block.butcher.hangingplayercorpse": "尸体",
+    "block.butcher.bluegift": "礼物",
+    "subtitles.box_crash": "",
+    "block.butcher.redgift": "礼物",
+    "item.butcher.butchers_bucket": "桶",
+    "block.butcher.pinkgift": "礼物",
+    "block.butcher.greengift": "礼物",
+    "subtitles.bell_chime": "",
+    "subtitles.three_bells": "",
+    "block.butcher.yellowgift": "礼物",
+    "subtitles.villager_ho_ho_ho": ""
 }
