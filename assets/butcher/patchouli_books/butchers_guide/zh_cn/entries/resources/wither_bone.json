@@ -1,0 +1,16 @@
+{
+    "name": "凋灵骨头",
+    "icon": "butcher:witherbone",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:witherbone",
+            "link_recipe": true,
+            "title" : "凋灵骨头",
+            "text": "凋灵骨头用于制作凋灵骨粉。要获得骨粉，你需要将骨头放入杵臼中研磨成骨粉。"
+        }
+    ]
+}

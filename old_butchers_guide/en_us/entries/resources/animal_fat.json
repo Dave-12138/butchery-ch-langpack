@@ -1,0 +1,16 @@
+{
+    "name": "Animal Fat",
+    "icon": "butcher:animalfat",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:animalfat",
+            "link_recipe": true,
+            "title" : "Animal Fat",
+            "text": "Animal fat is obtained from all animals, this can be used early game as a fuel for furnaces etc."
+        }
+    ]
+}

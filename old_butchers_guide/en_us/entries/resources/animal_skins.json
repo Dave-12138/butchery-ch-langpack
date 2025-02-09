@@ -1,0 +1,21 @@
+{
+      "name": "Animal Skins",
+    "icon": "butcher:cow_skin",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:cow_skin",
+            "link_recipe": true,
+            "title" : "Skins",
+            "text": "Skins can be used to obtain leather with the use of the skin rack block. This involves wetting and salting the skins then waiting for them to cure, for more information on this refer to the skin rack section in the blocks category."
+        },
+        {
+           "type": "patchouli:spotlight",
+           "title": "Compatible Skins",
+           "item": "butcher:cow_skin,butcher:pig_skin,butcher:sheep_skin,butcher:creamyllamaskin,butcher:brown_llama_skin,butcher:gray_llama_skin,butcher:white_llama_skin"
+     }
+    ]
+}

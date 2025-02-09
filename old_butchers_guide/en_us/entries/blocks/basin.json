@@ -1,0 +1,20 @@
+{
+      "name": "Basin",
+    "icon": "butcher:basin",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:basin",
+            "link_recipe": true,
+            "title" : "Basin",
+            "text": "The basin can be used to automate salt collection. To use this block you must fill it with water and over the course of half a Minecraft day the water will evaporate leaving salt which can be right clicked to remove or hoppered out. The basin MUST be outside in direct sunlight to evaporate the water, it will not work at night or whilst raining."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:basinrecipe"
+        }
+    ]
+}

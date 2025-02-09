@@ -1,0 +1,20 @@
+{
+      "name": "Hook",
+    "icon": "butcher:hook",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:hook",
+            "link_recipe": true,
+            "title" : "Hook",
+            "text": "The hook is one of if not the most essential blocks in the mod. It’s required to be able to hang corpses off to bleed and begin the butchering process. Hooks must be placed on horizontal chains by simply right clicking a chain whilst holding a hook."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:hook_recipe"
+        }
+    ]
+}

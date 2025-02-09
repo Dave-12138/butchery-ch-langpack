@@ -1,0 +1,19 @@
+{
+    "name": "Functional Decoration Blocks",
+    "icon": "butcher:freezer",
+    "category": "butcher:decorations",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:displayrecipe",
+            "text": "Displays can be used to store food."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:freezercrafting",
+            "text": "Freezers can be used to store food like display. You can also leave the freezer open by shift+right clicking it."
+        }
+    ]
+}

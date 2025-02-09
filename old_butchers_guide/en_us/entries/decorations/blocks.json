@@ -1,0 +1,48 @@
+{
+    "name": "Decoration Blocks",
+    "icon": "butcher:cashregister",
+    "category": "butcher:decorations",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:cashregisterrecipe",
+            "recipe2": "butcher:butcher_statuerecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:goat_rug_recipe",
+            "recipe2": "butcher:pandarugrecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:bear_rug_recipe",
+            "recipe2": "butcher:jarrecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:headmountrecipe",
+            "recipe2": "butcher:largeheadmountrecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:butcherssign",
+            "recipe2": "butcher:butchersfloorsign"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:redcanopyrecipe",
+            "text": "Canopys can be any color, just use whatever color wool you want they must all be the same color."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:salmon_barrel_crafting",
+            "recipe2": "butcher:codbarrel_crafting"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:bonebarrelcrafting"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "晒盐盆",
+    "icon": "butcher:basin",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:basin",
+            "link_recipe": true,
+            "title": "晒盐盆",
+            "text": "晒盐盆可用于自动化收集盐。要使用这个方块，你必须将其装满水，经过半个 Minecraft 天后，水会蒸发，留下盐。你可以右键点击晒盐盆来取出盐，或者使用漏斗将其取出。晒盐盆必须放置在户外阳光直射的地方才能蒸发水，夜晚或下雨时无法工作。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:basinrecipe"
+        }
+    ]
+}

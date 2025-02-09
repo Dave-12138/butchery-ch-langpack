@@ -1,0 +1,20 @@
+{
+    "name": "Butchers Papers",
+    "icon": "butcher:butcherspapers",
+    "category": "butcher:items",
+    "read_by_default": true,
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:butcherspapers",
+            "link_recipe": true,
+            "title" : "Butchers Papers",
+            "text": "The butchers papers is a tool that can be used to rotate corpses or configure blocks."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:butcherspapersrecipe"
+        }
+    ]
+}

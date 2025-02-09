@@ -1,0 +1,16 @@
+{
+    "name": "Frog Heart",
+    "icon": "butcher:frog_heart",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:frog_heart",
+            "link_recipe": true,
+            "title" : "Frog Heart",
+            "text": "Consuming frog hearts will grant you Jump Boost II for 60 seconds."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Hammer",
+    "icon": "butcher:hammer",
+    "category": "butcher:items",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:hammer",
+            "link_recipe": true,
+            "title" : "Hammer",
+            "text": "The hammer is used to break open turtle shells to access their organs and flesh. The broken shell pieces can be used to craft a turtle shell helmet."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:hammerrecipe"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Sponge",
+    "icon": "butcher:sponge",
+    "category": "butcher:items",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:sponge",
+            "link_recipe": true,
+            "title" : "Sponge",
+            "text": "Sponges have multiple uses. One of those being it allows you to clean the butchers table when covered in blood. It can also be used to clean blood off the floor if bleeding carcasses without a blood grate beneath it. The sponge can also be used to wet skins before salting."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:sponge_recipe",
+            "text": "To wet a sponge you need to right click it on a water source block or a cauldron full of water."
+        }
+    ]
+}

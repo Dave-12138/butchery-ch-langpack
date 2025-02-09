@@ -1,0 +1,16 @@
+{
+    "name": "大脑",
+    "icon": "butcher:villagerbrain",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:villagerbrain",
+            "link_recipe": true,
+            "title" : "大脑",
+            "text": "大脑可以通过采集村民的头部获得。它们可以放置在地面上或放入罐子中作为装饰。当放置在地面上时，它会吸引附近的僵尸。"
+        }
+    ]
+}

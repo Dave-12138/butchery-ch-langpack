@@ -3,3 +3,9 @@
 /diff*.json
 
 /en_us.json
+
+/butchers_guide/
+
+diff_butchers_guide/
+
+prompt.txt

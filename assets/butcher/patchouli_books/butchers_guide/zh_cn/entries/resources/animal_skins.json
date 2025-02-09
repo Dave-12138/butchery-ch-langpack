@@ -1,0 +1,21 @@
+{
+    "name": "动物皮",
+  "icon": "butcher:cow_skin",
+  "category": "butcher:resources",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+      {
+          "type": "patchouli:spotlight",
+          "item": "butcher:cow_skin",
+          "link_recipe": true,
+          "title" : "皮",
+          "text": "皮可以通过使用晾皮架方块来获取皮革。这包括将皮浸湿、撒盐，然后等待其鞣制。有关更多信息，请参阅方块类别中的晾皮架部分。"
+      },
+      {
+         "type": "patchouli:spotlight",
+         "title": "兼容的皮",
+         "item": "butcher:cow_skin,butcher:pig_skin,butcher:sheep_skin,butcher:creamyllamaskin,butcher:brown_llama_skin,butcher:gray_llama_skin,butcher:white_llama_skin"
+   }
+  ]
+}

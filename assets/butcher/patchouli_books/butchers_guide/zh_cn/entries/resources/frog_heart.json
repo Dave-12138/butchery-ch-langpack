@@ -1,0 +1,16 @@
+{
+    "name": "青蛙心脏",
+    "icon": "butcher:frog_heart",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:frog_heart",
+            "link_recipe": true,
+            "title" : "青蛙心脏",
+            "text": "食用青蛙心脏将为你提供跳跃提升II效果，持续60秒。"
+        }
+    ]
+}

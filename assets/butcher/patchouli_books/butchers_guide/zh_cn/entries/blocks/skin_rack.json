@@ -1,0 +1,32 @@
+{
+    "name": "晾皮架",
+    "icon": "butcher:emptyskinrack",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:emptyskinrack",
+            "link_recipe": true,
+            "title": "晾皮架",
+            "text": "晾皮架用于将动物皮转化为皮革。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:skinrackrecipe",
+            "text": "使用晾皮架非常简单，但需要一些其他资源。这些资源包括：$(li)湿抹布或湿海绵块$(li)盐"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:cow_skin,butcher:pig_skin,butcher:sheep_skin,butcher:creamyllamaskin,butcher:brown_llama_skin,butcher:gray_llama_skin,butcher:white_llama_skin",
+            "title": "使用方法",
+            "text": "将皮转化为皮革的步骤如下：$(br)$(br)1. 将兼容的皮放置在晾皮架上。$(li)2. 使用湿海绵块或湿抹布将皮浸湿。$(li)3. 手持盐并右键点击湿皮以撒盐。$(li)4. 等待60秒，皮将鞣制成皮革。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "兼容的皮",
+            "text": "$(li)牛皮$(li)猪皮$(li)羊皮$(li)羊驼皮（所有变种）"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "烧烤架",
+    "icon": "butcher:spitroast",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:spitroast",
+            "link_recipe": true,
+            "title": "烧烤架",
+            "text": "烧烤架是一种烹饪特定动物的新方式。目前仅接受猪和牛的尸体。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:spit_roast_recipe",
+            "text": "烧烤架下方必须放置营火才能正常工作。放好后，只需按照以下步骤操作：$(li)1. 将一只已放血的猪或牛放置在烧烤架上。$(li)2. 等待尸体烤熟，颜色会发生变化。$(li)3. 用刀右键点击以取下肉块。"
+        }
+    ]
+}

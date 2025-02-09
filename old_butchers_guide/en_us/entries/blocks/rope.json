@@ -1,0 +1,20 @@
+{
+      "name": "Hanging Rope",
+    "icon": "butcher:rope",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:rope",
+            "link_recipe": true,
+            "title" : "Hanging Rope",
+            "text": "The hanging rope is a standalone block used to hang carcasses and corpses. Standalone meaning it doesn't need another block like the hook needs a chain. This is a cheaper alternative to the hook however it only has 3 uses then it breaks, its intended for early game."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:roperecipe"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Wishbones",
+    "icon": "butcher:wishbone",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:wishbone",
+            "link_recipe": true,
+            "title" : "Wishbones",
+            "text": "The wishbone is obtain from a chicken corpse by right clicking with pliers. Regular wish bones can be broken by right clicking while holding. If you combine a nether star with wishbones in a brewing stand to obtain magic wishbones. When you break these wishbones it will lead to a random outcome. It could be good... or it could be devastating."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:magic_wishbone_recipe"
+        }
+    ]
+}

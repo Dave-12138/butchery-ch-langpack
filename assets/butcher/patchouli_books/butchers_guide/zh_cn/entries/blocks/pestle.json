@@ -1,0 +1,20 @@
+{
+    "name": "杵臼",
+    "icon": "butcher:pestleandmortarblock",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:pestleandmortarblock",
+            "link_recipe": true,
+            "title": "杵臼",
+            "text": "杵臼可用于将物品研磨成其他有用的资源。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:pestle_and_mortar_recipe"
+        }
+    ]
+}

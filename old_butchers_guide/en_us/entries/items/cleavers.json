@@ -1,0 +1,26 @@
+{
+    "name": "Cleavers",
+    "icon": "butcher:butchers_knife",
+    "category": "butcher:items",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:butchers_knife",
+            "link_recipe": true,
+            "title" : "Cleavers",
+            "text": "The new cleaver is an  essential tool thats required to  bleed and cut up corpses to obtain their resources. It comes in 3 materials. Bone, iron and netherite. Bone and Iron cleavers can be used on non-boss mobs. Netherite cleaver is required to butcher boss mob corpses."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:bonebutchersknife_recipe",
+            "recipe2": "butcher:butchers_knife_recipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Netherite Cleaver",
+            "recipe": "butcher:netherite_butchers_knife_crafting"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "龙资源",
+    "icon": "butcher:dragonscale",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:dragon_head",
+            "link_recipe": true,
+            "title" : "龙资源",
+            "text": "击败末影龙后，有机会制作一套全新的盔甲，其等级高于下界合金，但这并不便宜。要获得足够的资源来制作这套盔甲，你需要多次击败末影龙，具体次数取决于你在分解龙尸体时的运气。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:dragonscale",
+            "link_recipe": true,
+            "title" : "龙鳞",
+            "text": "击败末影龙后获得的资源之一。这些资源将用于制作龙鳞盔甲。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:dragonbone",
+            "link_recipe": true,
+            "title" : "龙骨",
+            "text": "击败末影龙后获得的另一种资源。这些骨头需要磨尖后才能用于制作配方。为此，请将它们放入切石机中。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "配方",
+            "recipe": "butcher:dragonscaleingotrecipe",
+            "recipe2": "butcher:dragonsmithingtemplaterecipe",
+            "text": "模板可以在末地城的战利品箱中找到。材料可以通过分解末影龙尸体获得。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:dragonscalearmor_helmet",
+            "link_recipe": true,
+            "title" : "龙鳞盔甲",
+            "text": "要制作龙鳞盔甲，你需要一个龙鳞模板、龙鳞锭和一件下界合金盔甲。将这三样物品在锻造台中组合，即可制作出龙鳞盔甲。"
+        }
+    ]
+}

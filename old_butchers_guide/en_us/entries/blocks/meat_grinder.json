@@ -1,0 +1,33 @@
+{
+      "name": "Meat Grinder",
+    "icon": "butcher:empty_meat_grinder",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:empty_meat_grinder",
+            "link_recipe": true,
+            "title": "Meat Grinder",
+            "text": "The meat grinder is used to create minced meats and sausages. The grinder accepts any beef item (obtained from cows), any Mutton (obtained from sheep and goats) and any pork (obtained from pigs - with the sausage filler attachment)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "Meat Grinder",
+            "recipe": "butcher:meatgrinderrecipe",
+            "recipe2": "butcher:sausagefillerattachmentrecipe",
+            "text": "Alternatively you can just right click a meat grinder whilst holding the attachment."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:sausages",
+            "title": "How to make sausages",
+            "text": "$(li)1. Right click the meat grinder (with the sausage filler attachment attached) whilst holding some intestines to use as sausage casing. $(li)2. Right click the grinder again with any pork meat. $(li)3. Right click the meat grinder with an empty hand $(li)4. Once the grinder has finished right click it with a knife."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Sausages can also be placed, raw or cooked, on blocks in piles or on hooks."
+        }
+    ]
+}

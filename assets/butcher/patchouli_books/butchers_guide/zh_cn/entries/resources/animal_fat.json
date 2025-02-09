@@ -1,0 +1,16 @@
+{
+    "name": "动物脂肪",
+    "icon": "butcher:animalfat",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:animalfat",
+            "link_recipe": true,
+            "title" : "动物脂肪",
+            "text": "动物脂肪可以从所有动物身上获取，早期游戏可用作熔炉等的燃料。"
+        }
+    ]
+}

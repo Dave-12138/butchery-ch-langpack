@@ -1,0 +1,16 @@
+{
+    "name": "盐",
+    "icon": "butcher:salt",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:salt",
+            "link_recipe": true,
+            "title" : "盐",
+            "text": "盐用于鞣制皮革，将皮转化为皮革。它还可以用于其他需要盐的模组配方。盐可以在海洋生物群系的水下找到，类似于黏土，也可以在大规模的结构中发现。另一种获取盐的方法是使用$(l:butcher:blocks/basin)晒盐盆$(/l)，你还可以将其自动化！"
+        }
+    ]
+}

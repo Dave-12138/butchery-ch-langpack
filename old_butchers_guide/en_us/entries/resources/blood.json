@@ -1,0 +1,28 @@
+{
+      "name": "Blood",
+    "icon": "butcher:blood_liquid_bucket",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:blood_liquid_bucket",
+            "link_recipe": true,
+            "title" : "Blood",
+            "text": "Blood is collected via a blood grate block placed below a carcass/corpse when it's being bled. Blood can be used in certain recipes. It can also be converted to be used with other mods that use blood such as vampirism, blood magic and hexerei. Check the blood grate section in the blocks category for more info."
+        },
+        {
+           "type": "patchouli:spotlight",
+            "item": "butcher:infectedblood_bucket",
+           "title": "Infected Blood",
+           "text": "Infected blood can be obtained the same way as normal blood but only from certain mobs such as Zombies. This blood has an interesting use, you can obtain infected blood bottles which can then be brewed into splash infected blood bottles. These can then be thrown at certain mobs to turn them into their zombie counterparts."
+        },
+        {
+           "type": "patchouli:text",
+            "item": "minecraft:zombie_head",
+           "title": "Zombifiable Mobs",
+           "text": "$(li)Cow$(li)Chicken$(li)Pig$(li)Wolf$(li)Fox$(li)Panda$(li)Cat$(li)Goat$(li)Llama"
+        }
+    ]
+}

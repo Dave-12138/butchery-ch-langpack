@@ -1,0 +1,21 @@
+{
+    "name": "Skinning Knives",
+    "icon": "butcher:skinning_knife",
+    "category": "butcher:items",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:skinning_knife",
+            "link_recipe": true,
+            "title" : "Skinning Knives",
+            "text": "The skinning knife is essential tool required to butcher certain corpses for example: Cow corpse. Using this knife you can remove the skin from a corpse. This skin can be used to obtain leather, please refer to the skin rack section of this guide for further information on obtaining leather."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:boneskinningkniferecipe",
+            "recipe2": "butcher:skinning_knife_recipe"
+        }
+    ]
+}

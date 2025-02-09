@@ -1,0 +1,20 @@
+{
+    "name": "屠宰桌",
+    "icon": "butcher:butcherstable",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:butcherstable",
+            "link_recipe": true,
+            "title": "屠宰桌",
+            "text": "屠宰桌可以用来放置尸体进行肢解。在桌子上解剖尸体时，桌子上会布满血迹。要清除血迹，可以用湿海绵块右键点击桌子。肢解结束后，不清理血迹直接解剖下一具尸体时，会得到腐烂的肉。擦净脸！"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:butchers_table_recipe"
+        }
+    ]
+}

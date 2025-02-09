@@ -1,0 +1,28 @@
+{
+    "name": "血液",
+    "icon": "butcher:blood_liquid_bucket",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:blood_liquid_bucket",
+            "link_recipe": true,
+            "title": "血液",
+            "text": "血液可以通过在尸体放血时放置在尸体下方的排血渠方块收集。血液可用于某些配方。它还可以转换为与其他使用血液的模组（如吸血鬼、血魔法和Hexerei）兼容。有关更多信息，请参阅方块类别中的排血渠部分。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:infectedblood_bucket",
+            "title": "秽血",
+            "text": "秽血可以通过与普通血液相同的方式获取，但只能从某些生物（如僵尸）身上获得。这种血液有一个有趣的用途，你可以获得秽血瓶，然后将其酿造成喷溅型秽血药水。这些瓶子可以投掷到某些生物身上，将它们转化为僵尸变种。"
+        },
+        {
+            "type": "patchouli:text",
+            "item": "minecraft:zombie_head",
+            "title": "可僵尸化的生物",
+            "text": "$(li)牛$(li)鸡$(li)猪$(li)狼$(li)狐狸$(li)熊猫$(li)猫$(li)山羊$(li)羊驼"
+        }
+    ]
+}

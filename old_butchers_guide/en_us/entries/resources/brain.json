@@ -1,0 +1,16 @@
+{
+    "name": "Brain",
+    "icon": "butcher:villagerbrain",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:villagerbrain",
+            "link_recipe": true,
+            "title" : "Brain",
+            "text": "Brains are obtained from harvesting a villagers head. These can be placed on the ground or placed in jars for decoration. When placed on the ground it will attact nearby zombies to it."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Rag",
+    "icon": "butcher:rag",
+    "category": "butcher:items",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:rag",
+            "link_recipe": true,
+            "title" : "Rag",
+            "text": "As sponges can be rather difficult to obtain there is a cheaper option. This being the rag, this item can be used for the same purposes as the sponge however it has much lower durability."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:ragrecipe",
+            "text": "To wet a rag you need to right click it on a water source block or a cauldron full of water."
+        }
+    ]
+}

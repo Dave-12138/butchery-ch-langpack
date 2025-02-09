@@ -1,0 +1,16 @@
+{
+    "name": "凋灵骨粉",
+    "icon": "butcher:witherbonemeal",
+    "category": "butcher:items",
+    "read_by_default": true,
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:witherbonemeal",
+            "link_recipe": true,
+            "title" : "凋灵骨粉",
+            "text": "凋灵骨粉可用于将普通玫瑰转化为凋灵玫瑰。只需手持凋灵骨粉右键点击玫瑰即可将其转化为凋灵玫瑰。然而，并非所有玫瑰都能成功转化，有些可能会枯萎。"
+        }
+    ]
+}

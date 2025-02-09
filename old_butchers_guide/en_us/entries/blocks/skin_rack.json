@@ -1,0 +1,32 @@
+{
+      "name": "Skin Rack",
+    "icon": "butcher:emptyskinrack",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:emptyskinrack",
+            "link_recipe": true,
+            "title" : "Skin Rack",
+            "text": "The skin rack is used to obtain leather from animal skins."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:skinrackrecipe",
+            "text": "Using the skin rack is really simple and requires a couple of other resources. Which are: $(li)A wet rag or sponge$(li)Salt"
+        },
+        {
+            "type": "patchouli:spotlight",
+           "item": "butcher:cow_skin,butcher:pig_skin,butcher:sheep_skin,butcher:creamyllamaskin,butcher:brown_llama_skin,butcher:gray_llama_skin,butcher:white_llama_skin",
+            "title": "How to use",
+            "text": "To convert skins into leather you simply need to:$(br)$(br)1. Place a compatible skin onto the skin rack.$(li)2. Wet the skin with either a wet sponge or a wet rag.$(li)3. Apply salt to the wet skin by right clicking whilst holding salt.$(li)4. Wait 60 seconds and the skin will cure into leather."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Compatible Skins",
+            "text": "$(li)Cow Skin$(li)Pig Skin$(li)Sheep Skin$(li)Llama Skin (All Variants)"
+        }
+    ]
+}

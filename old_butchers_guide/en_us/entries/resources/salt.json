@@ -1,0 +1,16 @@
+{
+    "name": "Salt",
+    "icon": "butcher:salt",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:salt",
+            "link_recipe": true,
+            "title" : "Salt",
+              "text": "Salt is used to salt skins to turn into leather. It can also be used in other recipes from other mods that require salt. Salt can be found under water in ocean biomes in similar to clay, it can also be found in large formations. Another menthod to obtaining salt is using the $(l:butcher:blocks/basin)Basin$(/l) which you can also automate!"
+        }
+    ]
+}

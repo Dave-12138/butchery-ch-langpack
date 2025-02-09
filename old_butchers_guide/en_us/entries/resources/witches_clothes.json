@@ -1,0 +1,16 @@
+{
+    "name": "Witches Clothes",
+    "icon": "butcher:witcharmor_helmet",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:witcharmor_helmet",
+            "link_recipe": true,
+            "title" : "Witches Clothes",
+            "text": "Ever want to be a witch? Well now you can. To harvest witches you will need to remove her hat and cloak, best part is you can now keep them and wear them yourself!"
+        }
+    ]
+}

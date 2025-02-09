@@ -1,0 +1,21 @@
+{
+    "name": "海绵块",
+    "icon": "butcher:sponge",
+    "category": "butcher:items",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:sponge",
+            "link_recipe": true,
+            "title" : "海绵块",
+            "text": "海绵块有多种用途。其中之一是可以清洁血污的屠宰桌。如果尸体放血时下方没有排血渠，它还可以用于清理地面上的血迹。海绵块也可用于在撒盐前浸湿皮。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:sponge_recipe",
+            "text": "要将海绵块浸湿，需要手持它右键点击水源方块或装满水的炼药锅。"
+        }
+    ]
+}

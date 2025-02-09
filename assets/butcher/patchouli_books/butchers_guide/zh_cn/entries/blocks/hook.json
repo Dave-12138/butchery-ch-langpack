@@ -1,0 +1,20 @@
+{
+    "name": "钩子",
+    "icon": "butcher:hook",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:hook",
+            "link_recipe": true,
+            "title": "钩子",
+            "text": "钩子是本mod中最为重要的方块之一。它是能够将尸体挂起来进行放血和屠宰的前提。钩子必须放置在水平锁链上，只需手持钩子右键点击锁链即可。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:hook_recipe"
+        }
+    ]
+}

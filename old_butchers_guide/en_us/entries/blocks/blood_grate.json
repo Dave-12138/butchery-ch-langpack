@@ -1,0 +1,21 @@
+{
+      "name": "Blood Grate",
+    "icon": "butcher:bloodgratetank",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:bloodgratetank",
+            "link_recipe": true,
+            "title" : "Blood Grate",
+            "text": "The blood grate is an essential block to keep your work space clean and collect blood. Placed this block beneath a hanging corpse before you bleed it and it will collect all of the blood and store it for later use. Without this blood will pour all over the floor."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:bloodgrate_recipe",
+            "text": "The blood grate can be converted to collect and store blood from different mods, currently supported mods are:$(li)$(#f92020)Blood Magic$().$(li)$(#f92020)Hexerei$().$(li)$(#f92020)Vampirism$().$(li)To change the type of blood tank you'll need to right click it whilst holding the $(#f92020)Butchers Papers$()."
+        }
+    ]
+}

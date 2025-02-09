@@ -1,0 +1,20 @@
+{
+    "name": "锤子",
+    "icon": "butcher:hammer",
+    "category": "butcher:items",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:hammer",
+            "link_recipe": true,
+            "title" : "锤子",
+            "text": "锤子用于敲开龟壳以获取其器官和肉。破碎的龟壳碎片可用于制作龟壳头盔。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:hammerrecipe"
+        }
+    ]
+}
