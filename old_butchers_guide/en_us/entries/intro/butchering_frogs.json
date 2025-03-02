@@ -1,0 +1,25 @@
+{
+    "name": "Butchering Frogs",
+    "icon": "butcher:frogpinned",
+    "category": "butcher:intro",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:frogpinned",
+            "link_recipe": true,
+            "title" : "Butchering Frogs",
+            "text": "Frogs are butchered a little differently to other mobs. They don't require bleeding, but they do require a metal tray. Whilst holding the frog right click it onto a metal tray to place it down, then you can proceed to butcher it with a cleaver. Just like being back in biology class!"
+        },
+        {
+          "type": "patchouli:image",
+          "images": [
+            "butcher:images/entries/intro/empty_metal_tray.png",
+            "butcher:images/entries/intro/frog_on_metal_tray.png",
+            "butcher:images/entries/intro/frog_on_metal_tray_2.png"
+          ],
+          "border": true
+        }
+    ]
+}

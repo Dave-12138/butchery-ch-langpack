@@ -74,7 +74,8 @@ try {
             write("diff3.json", Object.keys(zh).map(toTableTuple));
             // guide
             // 先清理
-            deep(pathDiffGuide).forEach(f => fs.rmdirSync(f));
+            // deep(pathDiffGuide).forEach(f => fs.rmSync(f));
+            fs.rmSync(pathDiffGuide, { recursive: true, force: true });
             // 比较，复制有改动的文件
             deep(pathEnGuide).forEach(f => {
                 if (!guideNoChange(f)) {

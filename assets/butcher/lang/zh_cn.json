@@ -1289,5 +1289,15 @@
     "block.butcher.pointedsaltmiddle": "盐晶笋",
     "item.butcher.elderguardianeye_helmet.description_0": "§7在水下获得夜视效果",
     "advancements.firstjoinmessage.title": "Butchery",
-    "advancements.firstjoinmessage.descr": "感谢游玩 Butchery！"
+    "advancements.firstjoinmessage.descr": "感谢游玩 Butchery！",
+    "block.butcher.snowyfoxhead": "狐狸头",
+    "block.butcher.hanging_snowydrainedfoxcorpse": "狐狸",
+    "block.butcher.hangingfoxsnowyheadless": "狐狸",
+    "item.butcher.snowyfoxfur": "雪狐裘皮",
+    "block.butcher.snowydrainedcorpse": "狐狸(已放血)",
+    "block.butcher.snowyfoxheadmount": "雪狐头壁挂",
+    "item.butcher.drainedsnowyfoxcarcassitem": "狐狸尸体(已放血)",
+    "block.butcher.hangingsnowyfoxcorpse": "狐狸",
+    "item.butcher.snowyfoxcarcassitem": "狐狸尸体",
+    "block.butcher.snowyfoxcorpse": "狐狸"
 }
