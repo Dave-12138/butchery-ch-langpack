@@ -14,7 +14,8 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "butcher:magic_wishbone_recipe"
+            "recipe": "butcher:magic_wishbone_recipe",
+            "text": "Once you have used the magic wishbone it will leave a broken wishbones, this can be ground down into bonemeal with the pestle & mortar."
         }
     ]
 }

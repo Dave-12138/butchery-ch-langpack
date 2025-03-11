@@ -1,0 +1,21 @@
+{
+    "name": "氯水",
+    "icon": "butcher:bottleofchlorine",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:bottleofchlorine",
+            "link_recipe": true,
+            "title" : "氯水",
+            "text": "氯水可用于净化炼药锅中的血水，将其还原为普通水。制作方法是将盐水注入电解盆后置于雷暴天气下，闪电劈中电解盆时盐水会转化为氯水。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:brinesolutionrecipe",
+            "recipe2": "butcher:chlorinebottlerecipe"
+        }
+    ]
+}

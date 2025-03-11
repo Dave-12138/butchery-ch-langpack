@@ -14,8 +14,8 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "butcher:sponge_recipe",
-            "text": "To wet a sponge you need to right click it on a water source block or a cauldron full of water."
+            "recipe": "butcher:spongerecipe",
+            "text": "The recipe above can be reversed. To wet a sponge you need to right click it on a water source block or a cauldron full of water."
         }
     ]
 }

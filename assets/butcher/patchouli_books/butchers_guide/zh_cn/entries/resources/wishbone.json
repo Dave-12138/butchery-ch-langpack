@@ -9,12 +9,13 @@
             "type": "patchouli:spotlight",
             "item": "butcher:wishbone",
             "link_recipe": true,
-            "title" : "叉骨",
-            "text": "叉骨(如愿骨)可以通过用钳子右键点击鸡的尸体获得。普通的叉骨可以通过手持时右键点击折断。如果你将下界之星与叉骨在酿造台中结合，可以获得魔法如愿骨。当你折断这些魔法如愿骨时，会引发随机的结果。可能是好的……也可能是灾难性的。"
+            "title" : "叉骨（如愿骨）",
+            "text": "通过用钳子右键点击鸡的尸体可获得叉骨。普通叉骨可以通过手持时右键点击折断。若在酿造台中用下界之星与叉骨结合，可以得到魔法如愿骨。折断这些魔法如愿骨将会引发随机效果——可能带来好运...也可能造成灾难性后果。"
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "butcher:magic_wishbone_recipe"
+            "recipe": "butcher:magic_wishbone_recipe",
+            "text": "使用魔法如愿骨后会留下折断的叉骨，这些残骸可以通过杵臼研磨成骨粉。"
         }
     ]
 }
