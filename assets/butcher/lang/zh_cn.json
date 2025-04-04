@@ -1526,5 +1526,15 @@
     "block.butcher.wolfcut_2": "狼",
     "block.butcher.wolfcut_1": "狼",
     "item.butcher.eskimosuit_boots": "爱斯基摩靴",
-    "block.butcher.hangingskinnedwolfcarcass": "狼"
+    "block.butcher.hangingskinnedwolfcarcass": "狼",
+    "item.butcher.brownmooshroomcarcass": "棕色哞菇尸体",
+    "item.butcher.redmooshroomcarcass": "红色哞菇尸体",
+    "block.butcher.hangingredmooshroom": "红色哞菇",
+    "item.butcher.wolffursuit_boots": "狼皮靴子",
+    "block.butcher.redmooshroom": "红色哞菇",
+    "item.butcher.wolffursuit_helmet": "狼皮兜帽",
+    "item.butcher.wolffursuit_chestplate": "狼皮上衣",
+    "block.butcher.brownmooshroom": "棕色哞菇",
+    "block.butcher.hangingbrownmooshroom": "棕色哞菇",
+    "item.butcher.wolffursuit_leggings": "狼皮裤子"
 }
