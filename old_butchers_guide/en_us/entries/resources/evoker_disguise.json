@@ -1,0 +1,16 @@
+{
+    "name": "Evoker Disguise",
+    "icon": "butcher:evokerdisguise_helmet",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:evokerdisguise_helmet",
+            "link_recipe": true,
+            "title" : "Evoker Disguise",
+            "text": "The evoker disguise can be obtained from harvesting an evoker. This disguise will hide you from Pillagers but it will not work on Evokers, due to their magic abilities they can see right through the disguise."
+        }
+    ]
+}

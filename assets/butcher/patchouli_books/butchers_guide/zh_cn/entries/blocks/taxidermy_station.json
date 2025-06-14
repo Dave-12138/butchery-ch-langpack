@@ -1,0 +1,20 @@
+{
+    "name": "动物标本制作站",
+    "icon": "butcher:taxidermystation",
+    "category": "butcher:blocks",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:taxidermystation",
+            "link_recipe": true,
+            "title": "动物标本制作站",
+            "text": "动物标本制作站是制作头壁挂的新途径。只需将小麦放入左侧槽位，动物头部放入中间槽位，再将空的头挂架放入右侧槽位即可完成制作。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butcher:taxidermystationrecipe"
+        }
+    ]
+}

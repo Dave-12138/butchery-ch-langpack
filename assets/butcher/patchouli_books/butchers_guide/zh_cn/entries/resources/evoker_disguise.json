@@ -1,0 +1,16 @@
+{
+    "name": "唤魔者伪装",
+    "icon": "butcher:evokerdisguise_helmet",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:evokerdisguise_helmet",
+            "link_recipe": true,
+            "title": "唤魔者伪装",
+            "text": "唤魔者伪装可通过击败唤魔者获得。该伪装可使你避开劫掠者的注意，但对唤魔者无效——因其魔法能力能直接看穿伪装。"
+        }
+    ]
+}

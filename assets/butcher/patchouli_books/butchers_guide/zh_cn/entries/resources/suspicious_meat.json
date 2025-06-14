@@ -1,0 +1,20 @@
+{
+    "name": "可疑的肉",
+    "icon": "butcher:suspiciousmeat",
+    "category": "butcher:resources",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butcher:suspiciousmeat",
+            "link_recipe": true,
+            "title": "可疑的肉",
+            "text": "可疑的肉与迷之炖菜类似，食用时会随机产生一种药水效果。"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "butcher:scrapmeatrecipe_1"
+        }
+    ]
+}
