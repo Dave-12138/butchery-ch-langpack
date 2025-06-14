@@ -10,7 +10,7 @@
             "item": "butcher:butcherstable",
             "link_recipe": true,
             "title" : "Butchers Table",
-            "text": "The butchers table can be used to place corpses onto to butcher. When butchering a corpse ontop of the table it will become covered in blood. To clean the blood use a wet sponge and right click the table. After completing the butchering process of one corpse, placing another and butchering again without cleaning will give rotten flesh. Clean your surfaces!"
+            "text": "The butchers table can be used to place corpses onto to butcher. When butchering a corpse ontop of the table it will become covered in blood. To clean the blood use a wet sponge or wet rag and right click the table."
         },
         {
             "type": "patchouli:crafting",

@@ -10,20 +10,20 @@
             "item": "butcher:empty_meat_grinder",
             "link_recipe": true,
             "title": "绞肉机",
-            "text": "绞肉机用于制作碎肉和香肠。绞肉机可以接受任何牛肉、任何羊肉或山羊肉以及任何猪肉（需要香肠灌装头）"
+            "text": "绞肉机用于制作肉糜和香肠。可处理任何牛肉类物品（来自牛）、羊肉类物品（来自绵羊和山羊）以及猪肉类物品（来自猪——需配合香肠灌装头使用）。（不要问为什么要写牛肉来自牛这种奇怪的话，原文可是英文。）"
         },
         {
             "type": "patchouli:crafting",
             "title": "绞肉机",
             "recipe": "butcher:meatgrinderrecipe",
             "recipe2": "butcher:sausagefillerattachmentrecipe",
-            "text": "可以手持香肠灌装头右键绞肉机来把罐装头装在绞肉机上"
+            "text": "绞肉机设有专用插槽用于安装附件。"
         },
         {
             "type": "patchouli:spotlight",
             "item": "butcher:sausages",
-            "title": "如何制作香肠",
-            "text": "$(li)1. 手持肠，右键点击装有香肠灌装头的绞肉机。$(li)2. 手持猪肉，右键点击绞肉机。$(li)3. 空手右键点击绞肉机。$(li)4. 手持刀，右键点击绞肉机把成品切下来。"
+            "title": "香肠制作方法",
+            "text": "$(li)1. 将香肠灌装头安装至专用槽 $(li)2. 将肠子放入对应槽 $(li)3. 将任意猪肉放入绞肉机上方的槽位并等待 $(li)小贴士：添加血瓶可制作血肠！"
         },
         {
             "type": "patchouli:text",

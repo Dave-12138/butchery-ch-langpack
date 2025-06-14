@@ -17,13 +17,13 @@
             "title": "Meat Grinder",
             "recipe": "butcher:meatgrinderrecipe",
             "recipe2": "butcher:sausagefillerattachmentrecipe",
-            "text": "Alternatively you can just right click a meat grinder whilst holding the attachment."
+            "text": "The meat grinder has a specific slot for the attachment."
         },
         {
             "type": "patchouli:spotlight",
             "item": "butcher:sausages",
             "title": "How to make sausages",
-            "text": "$(li)1. Right click the meat grinder (with the sausage filler attachment attached) whilst holding some intestines to use as sausage casing. $(li)2. Right click the grinder again with any pork meat. $(li)3. Right click the meat grinder with an empty hand $(li)4. Once the grinder has finished right click it with a knife."
+            "text": "$(li)1. Add the sausage attachment to its specific slot. $(li)2. Add intestines to its specific slot. $(li)3. Add any pork meat to the slot above the meat grinder then wait. $(li)Tip: Add bottles of blood to create blood sausage!"
         },
         {
             "type": "patchouli:text",
