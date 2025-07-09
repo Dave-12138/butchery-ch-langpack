@@ -13,9 +13,11 @@
             "text": "Chlorine can be used to clean bloody water in a cauldron returning it to water. Chlorine is created by have an electrical current run through a basin full of brine solution, to do this fill a brine basin full of brine solution and leave outside during a thunderstorm. Eventually it will be struck by lightning converting it to chlorine."
         },
         {
-            "type": "patchouli:crafting",
-            "recipe": "butcher:brinesolutionrecipe",
-            "recipe2": "butcher:chlorinebottlerecipe"
+            "type": "patchouli:spotlight",
+            "item": "butcher:brinesolution_bucket",
+            "link_recipe": true,
+            "title" : "Brine Solution",
+            "text": "To craft the brine solution you will need 2 items, salt and a water bucket. Hold the bucket in one hand and the salt in another. (It doesn't matter which way round you have the items) Then simply right click. 1 salt will be consumed and the bucket of water will convert into a brine solution."
         }
     ]
 }
