@@ -1,0 +1,16 @@
+{
+    "name": "血液",
+    "icon": "butchery:blood_bucket",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:blood_bucket",
+            "link_recipe": true,
+            "title": "血液",
+            "text": "血液是一种你会大量获得的资源。通过在动物尸体下方放置$(l:butchery:blocks/blood_grate)血格栅$()进行放血即可收集血液。之后，你可以使用桶或玻璃瓶从格栅中取出血液。瓶装血液可用于$(l:butchery:blocks/meat_grinder)绞肉机$()的合成配方中来制作血肠。"
+        }
+    ]
+}

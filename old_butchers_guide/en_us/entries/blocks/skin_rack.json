@@ -1,32 +1,20 @@
 {
       "name": "Skin Rack",
-    "icon": "butcher:emptyskinrack",
-    "category": "butcher:blocks",
+    "icon": "butchery:skin_rack",
+    "category": "butchery:blocks",
     "read_by_default": true,
-    "sortnum": 6,
+    "sortnum": 4,
     "pages": [
         {
             "type": "patchouli:spotlight",
-            "item": "butcher:emptyskinrack",
+            "item": "butchery:skin_rack",
             "link_recipe": true,
             "title" : "Skin Rack",
-            "text": "The skin rack is used to obtain leather from animal skins."
+            "text": "The skin rack can be used to convert animal skins into leather. To use the skin rack place a mob skin by right clicking the rack whilst holding the skin. Once placed use a wet sponge, rag or bottle of water to wet the skin. Finally right click the wet skin whilst holding some salt. After these steps have been following you will need to wait for the skin to cure and convert to leather."
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "butcher:skinrackrecipe",
-            "text": "Using the skin rack is really simple and requires a couple of other resources. Which are: $(li)A wet rag or sponge$(li)Salt"
-        },
-        {
-            "type": "patchouli:spotlight",
-           "item": "butcher:cow_skin,butcher:pig_skin,butcher:sheep_skin,butcher:creamyllamaskin,butcher:brown_llama_skin,butcher:gray_llama_skin,butcher:white_llama_skin",
-            "title": "How to use",
-            "text": "To convert skins into leather you simply need to:$(br)$(br)1. Place a compatible skin onto the skin rack.$(li)2. Wet the skin with either a wet sponge or a wet rag.$(li)3. Apply salt to the wet skin by right clicking whilst holding salt.$(li)4. Wait 60 seconds and the skin will cure into leather."
-        },
-        {
-            "type": "patchouli:text",
-            "title": "Compatible Skins",
-            "text": "$(li)Cow Skin$(li)Pig Skin$(li)Sheep Skin$(li)Llama Skin (All Variants)"
+            "recipe": "butchery:skinrackrecipe"
         }
     ]
 }

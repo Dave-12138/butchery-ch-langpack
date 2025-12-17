@@ -1,0 +1,20 @@
+{
+      "name": "Hook",
+    "icon": "butchery:hook",
+    "category": "butchery:items",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:hook",
+            "link_recipe": true,
+            "title" : "Hook",
+            "text": "The hook is an essential tool to be able to butcher carcasses. This item is required to be able to hand carcasses and corpses to bleed them and begin the butchering process. Hooks can be placed on the sides or bottom of blocks, they can also be placed on horizontal chains."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:hookrecipe"
+        }
+    ]
+}

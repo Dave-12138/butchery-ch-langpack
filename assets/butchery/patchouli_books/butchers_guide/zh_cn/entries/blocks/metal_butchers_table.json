@@ -1,0 +1,20 @@
+{
+    "name": "金属屠宰桌",
+    "icon": "butchery:metal_butchers_table",
+    "category": "butchery:blocks",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:metal_butchers_table",
+            "link_recipe": true,
+            "title": "金属屠宰桌",
+            "text": "金属屠宰桌，与木制屠宰桌类似，是一个方块，放血后的尸体可以放在上面进行解剖。注意：解剖尸体并不强制要求使用屠宰桌。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:metalbutcherstablerecipe"
+        }
+    ]
+}

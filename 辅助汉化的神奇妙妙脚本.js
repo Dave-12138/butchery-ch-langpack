@@ -1,8 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createHash } from "node:crypto";
-const lang = "./assets/butcher/lang/";
-const books = path.join("./assets/butcher/patchouli_books/butchers_guide/zh_cn/");
+const lang = "./assets/butchery/lang/";
+const books = path.join("./assets/butchery/patchouli_books/butchers_guide/zh_cn/");
 /**
  * 读取json文件，解析为对象
  * @param {string} filename 
@@ -20,7 +20,7 @@ function read(filename, dpath = "./") {
  * @param {string?} dpath 
  */
 function write(filename, content, dpath = "./") {
-    fs.writeFileSync(path.join(dpath, filename), content instanceof Object ? JSON.stringify(content) : content, { encoding: "utf8", flag: "w+" });
+    fs.writeFileSync(path.join(dpath, filename), content instanceof Object ? JSON.stringify(content, null, 4) : content, { encoding: "utf8", flag: "w+" });
 }
 /**
  * 
@@ -71,7 +71,7 @@ try {
             const toTableTuple = k => [k, en0[k], en[k], zh[k]].map(r => r ?? "<empty>");
             write("diff.json", changedKeys.reduce((p, v) => Object.assign(p, { [v]: zh[v] ? zh[v] + `(${en[v]})` : en[v] }), {}));
             write("diff2.json", changedKeys.map(toTableTuple));
-            write("diff3.json", Object.keys(zh).map(toTableTuple));
+            write("diff3.json", [...Object.keys(zh), ...Object.keys(en)].filter((e, i, a) => a.findIndex(x => x == e) == i).map(toTableTuple));
             // guide
             // 先清理
             // deep(pathDiffGuide).forEach(f => fs.rmSync(f));

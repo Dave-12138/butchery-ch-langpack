@@ -1,0 +1,20 @@
+{
+    "name": "钩子",
+    "icon": "butchery:hook",
+    "category": "butchery:items",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:hook",
+            "link_recipe": true,
+            "title": "钩子",
+            "text": "钩子是进行屠宰处理的必备工具。需要使用这个物品来悬挂尸体以进行放血，从而开始屠宰流程。钩子可以放置在方块的侧面或底部，也可以放置在水平的链条上。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:hookrecipe"
+        }
+    ]
+}

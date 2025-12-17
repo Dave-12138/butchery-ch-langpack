@@ -1,6 +1,6 @@
 {
     "name": "Resources",
     "description": "Learn what all of the resources from animals and mobs can be used for.",
-    "icon": "butcher:cow_skin",
-    "sortnum": 4
+    "icon": "butchery:salt",
+    "sortnum": 3
 }

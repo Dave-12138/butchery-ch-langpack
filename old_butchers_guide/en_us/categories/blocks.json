@@ -1,6 +1,6 @@
 {
     "name": "Blocks",
     "description": "Learn all you need to know about Butchery's blocks.",
-    "icon": "butcher:butcherstable",
-    "sortnum": 3
+    "icon": "butchery:oak_butchers_table",
+    "sortnum": 2
 }

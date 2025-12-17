@@ -1,0 +1,20 @@
+{
+      "name": "Metal Butchers Table",
+    "icon": "butchery:metal_butchers_table",
+    "category": "butchery:blocks",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:metal_butchers_table",
+            "link_recipe": true,
+            "title" : "Metal Butchers Table",
+            "text": "The metal butchers table, much like the wooden ones, is a block that carcasses can be placed on to be butchered once drained. The table is NOT required for butchring carcasses."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:metalbutcherstablerecipe"
+        }
+    ]
+}

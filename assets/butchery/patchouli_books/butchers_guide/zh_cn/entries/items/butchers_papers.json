@@ -1,5 +1,5 @@
 {
-      "name": "Butchers Papers",
+    "name": "散装屠夫指南",
     "icon": "butchery:butchers_papers",
     "category": "butchery:items",
     "read_by_default": true,
@@ -9,8 +9,8 @@
             "type": "patchouli:spotlight",
             "item": "butchery:butchers_papers",
             "link_recipe": true,
-            "title" : "Butchers Papers",
-            "text": "The butchers papers are a tool used to change the type of $(l:butchery:blocks/blood_grate)Blood Grate$(). Right click the grate whilst holding the papers to cycle through the different types."
+            "title": "散装屠夫指南",
+            "text": "散装屠夫指南是一种工具，用于改变$(l:butchery:blocks/blood_grate)排血渠$()的类型。手持指南右键点击排血渠以在不同类型间循环切换。"
         },
         {
             "type": "patchouli:crafting",

@@ -1,0 +1,21 @@
+{
+    "name": "盐",
+    "icon": "butchery:salt",
+    "category": "butchery:items",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:salt",
+            "link_recipe": true,
+            "title": "盐",
+            "text": "盐是将兽皮转化为皮革的必备物品。有多种方式可以获取盐，例如最简单的方法是制作一个$(l:butchery:blocks/basin)盐水盆$()。另一种方法是探索，盐会在水下形成圆盘状的矿层，类似于黏土的生成方式。最后，在海洋生物群系中可以找到盐矿层，这些是大型的盐矿沉积，通常伴有盐柱。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:saltblockrecipe",
+            "text": "其他模组中使用 forge:salt 或 c:salt 标签的盐，同样可用于本模组的合成配方。"
+        }
+    ]
+}

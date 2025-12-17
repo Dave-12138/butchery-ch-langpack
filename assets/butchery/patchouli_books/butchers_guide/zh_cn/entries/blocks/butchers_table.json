@@ -1,5 +1,5 @@
 {
-      "name": "Wood Butchers Table",
+    "name": "木制屠宰桌",
     "icon": "butchery:oak_butchers_table",
     "category": "butchery:blocks",
     "read_by_default": true,
@@ -9,8 +9,8 @@
             "type": "patchouli:spotlight",
             "item": "butchery:oak_butchers_table",
             "link_recipe": true,
-            "title" : "Wood Butchers Table",
-            "text": "The wood butchers table is a block that carcasses can be placed on to be butchered once drained. The table is NOT required for butchring carcasses."
+            "title": "木制屠宰桌",
+            "text": "木制屠宰桌是一个方块，放血后的尸体可以放在上面进行解剖。注意：解剖尸体并不强制要求使用屠宰桌。"
         },
         {
             "type": "patchouli:crafting",

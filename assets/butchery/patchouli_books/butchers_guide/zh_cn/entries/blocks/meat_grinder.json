@@ -1,5 +1,5 @@
 {
-      "name": "Meat Grinder",
+    "name": "绞肉机",
     "icon": "butchery:meat_grinder",
     "category": "butchery:blocks",
     "read_by_default": true,
@@ -9,8 +9,8 @@
             "type": "patchouli:spotlight",
             "item": "butchery:meat_grinder",
             "link_recipe": true,
-            "title" : "Meat Grinder",
-            "text": "The meat grinder can be used to craete sausages and scrap meat."
+            "title": "绞肉机",
+            "text": "绞肉机可用于制作香肠和碎肉。"
         },
         {
             "type": "patchouli:crafting",

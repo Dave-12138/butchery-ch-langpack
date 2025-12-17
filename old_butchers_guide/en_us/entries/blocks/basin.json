@@ -1,34 +1,20 @@
 {
       "name": "Basin",
-    "icon": "butcher:basin",
-    "category": "butcher:blocks",
+    "icon": "butchery:basin",
+    "category": "butchery:blocks",
     "read_by_default": true,
-    "sortnum": 4,
+    "sortnum": 5,
     "pages": [
         {
             "type": "patchouli:spotlight",
-            "item": "butcher:basin",
+            "item": "butchery:basin",
             "link_recipe": true,
             "title" : "Basin",
-            "text": "The basin can be used to automate salt collection. To use this block you must fill it with water and over the course of half a Minecraft day the water will evaporate leaving salt which can be right clicked to remove or hoppered out. The basin MUST be outside in direct sunlight to evaporate the water, it will not work at night or whilst raining."
+            "text": "The basin can be used to automate $(l:butchery:resources/salt)Salt$() collection. To use this block you must fill it with water and over the course of half a Minecraft day the water will evaporate leaving salt which can be right clicked to remove or hoppered out. The basin MUST be outside in direct sunlight to evaporate the water, it will not work at night or whilst raining."
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "butcher:basinrecipe"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "item": "butcher:brinebasin",
-            "link_recipe": true,
-            "title" : "Basin",
-            "text": "The brine basin can be used to convert the brine solution to chlorine. Fill this with the brine solution and wait for a thunderstorm, eventually lightning will strike the basin causing the brine solution to convert into chlorine."
-        },
-        {
-          "type": "patchouli:image",
-          "images": [
-            "butcher:images/entries/blocks/brine_basin.png"
-          ],
-            "text": "To create a brine basin simply right click a basin whilst holding a lightning rod."
+            "recipe": "butchery:basinrecipe"
         }
     ]
 }

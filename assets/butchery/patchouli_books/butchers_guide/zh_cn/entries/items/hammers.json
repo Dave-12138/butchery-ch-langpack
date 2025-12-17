@@ -1,0 +1,30 @@
+{
+    "name": "锤子",
+    "icon": "butchery:iron_hammer",
+    "category": "butchery:items",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:iron_hammer",
+            "link_recipe": true,
+            "title": "锤子",
+            "text": "有些尸体的外壳或类似外壳的外部结构非常坚硬，很遗憾，切肉刀无法破开它们。这时就需要用到锤子了，使用这些工具施加足够的力道可以敲开外壳。对于像海龟和潜影贝这样的生物，可以用锤子右键点击来移除它们的壳。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:bonehammerrecipe",
+            "recipe2": "butchery:ironhammerrecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:goldhammerrecipe",
+            "recipe2": "butchery:diamondhammerrecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:netheritehammerrecipe"
+        }
+    ]
+}

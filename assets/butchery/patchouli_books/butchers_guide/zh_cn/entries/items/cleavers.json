@@ -1,5 +1,5 @@
 {
-      "name": "Cleavers",
+    "name": "切肉刀",
     "icon": "butchery:iron_cleaver",
     "category": "butchery:items",
     "read_by_default": true,
@@ -9,8 +9,8 @@
             "type": "patchouli:spotlight",
             "item": "butchery:iron_cleaver",
             "link_recipe": true,
-            "title" : "Cleavers",
-            "text": "The cleavers are used to obtain the carcasses of mobs, bleed carcasses and butcher them. There are 5 different materials much like vanilla tools, these are: Bone, Iron, Gold, Diamond and Netherite. With the exception of Netherite all of these cleavers do the same thing, however the Netherite cleavers are the only cleavers that are able to obtain boss mob carcasses and butcher them."
+            "title": "切肉刀",
+            "text": "切肉刀用于获取生物的尸体、放血尸体并解剖它们。共有5种不同的材料，类似于原版工具，分别是：骨头、铁、金、钻石和下界合金。除下界合金外，所有这些切肉刀功能相同，但只有下界合金切肉刀能够获取Boss生物尸体并解剖它们。"
         },
         {
             "type": "patchouli:crafting",

@@ -1,5 +1,5 @@
 {
-      "name": "Skinning Knives",
+    "name": "剥皮刀",
     "icon": "butchery:iron_skinning_knife",
     "category": "butchery:items",
     "read_by_default": true,
@@ -9,8 +9,8 @@
             "type": "patchouli:spotlight",
             "item": "butchery:iron_skinning_knife",
             "link_recipe": true,
-            "title" : "Skinning Knives",
-            "text": "The skinning knives are used for skinning mobs and obtaining the fur/skin. To skin a carcass it must be fully drained first, then right clicking on the carcass whilst holding the skinning knife. Like the cleavers the skinning knives come in 5 materials, all do the same again with the exception of Netherite which is strong enough to skin boss carcasses."
+            "title": "剥皮刀",
+            "text": "剥皮刀用于从生物身上剥取毛皮或皮革。要剥取尸体，必须首先将其血液完全放干，然后手持剥皮刀对尸体右键点击。与切肉刀类似，剥皮刀也有五种材质，它们的功能相同，但下界合金材质的剥皮刀足够坚韧，可以处理首领生物的尸体。"
         },
         {
             "type": "patchouli:crafting",

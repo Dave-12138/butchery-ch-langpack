@@ -1,0 +1,30 @@
+{
+      "name": "Hammers",
+    "icon": "butchery:iron_hammer",
+    "category": "butchery:items",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:iron_hammer",
+            "link_recipe": true,
+            "title" : "Hammers",
+            "text": "Some carcasses have tough shell and shell-like exteriors, unfortunately the cleavers just can't get through. This is where the hammers come in, using these tools with enough force can break open shells. For mobs like turtles and shulkers the shells can be removed by right-clicking with the hammer."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:bonehammerrecipe",
+            "recipe2": "butchery:ironhammerrecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:goldhammerrecipe",
+            "recipe2": "butchery:diamondhammerrecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:netheritehammerrecipe"
+        }
+    ]
+}

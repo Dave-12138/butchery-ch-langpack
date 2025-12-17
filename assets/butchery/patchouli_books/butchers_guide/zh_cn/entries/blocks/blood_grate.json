@@ -1,0 +1,21 @@
+{
+    "name": "排血渠",
+    "icon": "butchery:blood_grate",
+    "category": "butchery:blocks",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:blood_grate",
+            "link_recipe": true,
+            "title": "排血渠",
+            "text": "排血渠是一个可以从尸体放血中收集血液的方块。这个方块需要直接放置在悬挂的尸体下方。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:bloodgraterecipe",
+            "text": "排血渠可以更改以支持来自其他模组的血液。为此，你需要制作$(l:butchery:items/butchers_papers)散装屠夫指南$()，制作完成后，只需右键点击排血渠，它就会循环切换支持的模组血液。"
+        }
+    ]
+}
