@@ -15,10 +15,10 @@ jobs:
       - name: 获取仓库文件
         uses: actions/checkout@v2 
       - name: 创建压缩包
-        run: zip -r butcher-cn.zip pack.mcmeta assets
+        run: zip -r butchery-cn.zip pack.mcmeta assets
       - name: 创建release
         uses: softprops/action-gh-release@v2
         with:
-          files: butcher-cn.zip
+          files: butchery-cn.zip
           token: ${{ secrets.GITHUB_TOKEN }}
 
