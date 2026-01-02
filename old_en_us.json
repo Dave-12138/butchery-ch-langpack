@@ -878,5 +878,10 @@
     "block.butchery.piglin_skeleton": "Piglin Skeleton",
     "block.butchery.polarbear_skeleton": "Polar Bear Skeleton",
     "block.butchery.sheep_skeleton": "Sheep skeleton",
-    "block.butchery.wolf_skeleton": "Wolf Skeleton"
+    "block.butchery.wolf_skeleton": "Wolf Skeleton",
+    "block.butchery.playercorpse": "Player Corpse",
+    "block.butchery.drainedplayercorpse": "Drained Player Corpse",
+    "item.butchery.flesh": "Flesh",
+    "item.butchery.rawhumanmeat": "Raw Human Meat",
+    "item.butchery.cookedhumanmeat": "Cooked Human Meat"
 }

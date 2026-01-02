@@ -874,5 +874,10 @@
     "block.butchery.piglin_skeleton": "猪灵骨架",
     "block.butchery.polarbear_skeleton": "北极熊骨架",
     "block.butchery.sheep_skeleton": "羊骨架",
-    "block.butchery.wolf_skeleton": "狼骨架"
+    "block.butchery.wolf_skeleton": "狼骨架",
+    "block.butchery.playercorpse": "玩家尸体",
+    "block.butchery.drainedplayercorpse": "玩家尸体(已放血)",
+    "item.butchery.flesh": "鲜肉",
+    "item.butchery.rawhumanmeat": "生人肉",
+    "item.butchery.cookedhumanmeat": "熟人肉"
 }
