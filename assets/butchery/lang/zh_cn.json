@@ -881,10 +881,10 @@
     "item.butchery.rawhumanmeat": "生人肉",
     "item.butchery.cookedhumanmeat": "熟人肉",
     "block.butchery.jar": "罐子",
-    "block.butchery.ravager": "掠夺兽尸体",
-    "block.butchery.ravager_head": "掠夺兽头",
-    "item.butchery.ravager_carcass": "掠夺兽尸体",
-    "item.butchery.raw_ravager_meat": "生掠夺兽肉",
-    "item.butchery.cooked_ravager_meat": "熟掠夺兽肉",
-    "block.butchery.ravager_head_mount": "掠夺兽头壁挂"
+    "block.butchery.ravager": "劫掠兽尸体",
+    "block.butchery.ravager_head": "劫掠兽头",
+    "item.butchery.ravager_carcass": "劫掠兽尸体",
+    "item.butchery.raw_ravager_meat": "生劫掠兽肉",
+    "item.butchery.cooked_ravager_meat": "熟劫掠兽肉",
+    "block.butchery.ravager_head_mount": "劫掠兽头壁挂"
 }
