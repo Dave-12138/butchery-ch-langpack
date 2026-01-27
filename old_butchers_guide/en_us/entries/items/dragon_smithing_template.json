@@ -1,0 +1,20 @@
+{
+      "name": "Dragon Smithing Template",
+    "icon": "butchery:dragon_smithing_template",
+    "category": "butchery:items",
+    "read_by_default": true,
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:dragon_smithing_template",
+            "link_recipe": true,
+            "title" : "Dragon Smithing Template",
+            "text": "The dragon smithing template is required to upgrade Netherite Armor into $(l:butchery:equipment/dragon_scale_armor)Dragon Scale Armor$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:dragonsmithingtemplaterecipe"
+        }
+    ]
+}

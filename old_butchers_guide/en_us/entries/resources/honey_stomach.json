@@ -1,0 +1,20 @@
+{
+      "name": "Honey Stomach",
+    "icon": "butchery:honey_stomach",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:honey_stomach",
+            "link_recipe": true,
+            "title" : "Honey Stomach",
+            "text": "Honey stomachs are obtained from butchering Bees. These can be combined with glass bottles to obtain bottles of honey."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:bottledhoneyrecipe"
+        }
+    ]
+}

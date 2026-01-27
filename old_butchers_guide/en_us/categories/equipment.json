@@ -1,0 +1,6 @@
+{
+    "name": "Equipment",
+    "description": "Everything you need to know about armor and cosmetic items added by butchery.",
+    "icon": "butchery:turtle_shell_armor_chestplate",
+    "sortnum": 3
+}

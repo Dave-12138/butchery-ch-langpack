@@ -1,0 +1,20 @@
+{
+      "name": "Butchering Bosses",
+    "icon": "butchery:ender_dragon_carcass",
+    "category": "butchery:guides",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:ender_dragon_carcass",
+            "link_recipe": true,
+            "title" : "Butchering Bosses",
+            "text": "Butchering bosses is a bit different to regular mobs but mostly the same. Due to the shear size and weight of these guys you cannot pick them up, trust me.. Ive tried. Anyway, once dealing the final blow with the cleaver (or any tool if enabled in the configuration file) the bosses carcass will fall to the ground or float if it’s the elder guardian. The next step is really simple, grab your cleaver and butcher away!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "But there is a requirement to be able to obtain and butcher boss carcasses, you will need to use a Netherite Cleaver."
+        }
+    ]
+}

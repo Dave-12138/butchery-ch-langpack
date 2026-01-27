@@ -1,0 +1,20 @@
+{
+      "name": "Jar",
+    "icon": "butchery:jar",
+    "category": "butchery:blocks",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:jar",
+            "link_recipe": true,
+            "title" : "Jar",
+            "text": "Jars can be used to display different organs. To add an organ to the jar just right click it whilst holding the organ, it will consume the organ but to get it back simply break the jar."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:jarrecipe"
+        }
+    ]
+}

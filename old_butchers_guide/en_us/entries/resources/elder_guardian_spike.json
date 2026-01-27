@@ -1,0 +1,20 @@
+{
+      "name": "Elder Guardian Spike",
+    "icon": "butchery:elder_guardian_spike",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:elder_guardian_spike",
+            "link_recipe": true,
+            "title" : "Elder Guardian Spike",
+            "text": "Spikes obtained during the butchering process of Elder Guardians. These can be used to create a spike trap that causes damage when mobs and players come into contact with them."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:spiketraprecipe"
+        }
+    ]
+}

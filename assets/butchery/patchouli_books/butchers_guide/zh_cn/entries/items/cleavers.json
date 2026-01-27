@@ -23,7 +23,7 @@
             "recipe2": "butchery:diamondcleaverrecipe"
         },
         {
-            "type": "patchouli:crafting",
+            "type": "patchouli:smithing",
             "recipe": "butchery:netheritecleaverrecipe"
         }
     ]

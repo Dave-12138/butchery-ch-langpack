@@ -1,0 +1,16 @@
+{
+    "name": "蜜蜂翅膀",
+    "icon": "butchery:bee_wings",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:bee_wings",
+            "link_recipe": true,
+            "title": "蜜蜂翅膀",
+            "text": "从肢解蜜蜂中获得的蜜蜂翅膀可以与粗制药水酿造成缓降药水。"
+        }
+    ]
+}

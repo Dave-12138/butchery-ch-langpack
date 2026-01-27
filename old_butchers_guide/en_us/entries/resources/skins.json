@@ -1,0 +1,20 @@
+{
+      "name": "Skins",
+    "icon": "butchery:cow_skin",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:cow_skin",
+            "link_recipe": true,
+            "title" : "Skin",
+            "text": "Skins are obtained during butchering carcasses. These can be used on the $(l:butchery:blocks/skin_rack)Skin Rack$() and converted into leather."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:butcherspapersrecipe"
+        }
+    ]
+}

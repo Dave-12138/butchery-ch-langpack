@@ -1,0 +1,21 @@
+{
+      "name": "Elder Guardian Eye",
+    "icon": "butchery:elder_guardian_eye",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:elder_guardian_eye",
+            "link_recipe": true,
+            "title" : "Elder Guardian Eye",
+            "text": "Elder Guardian eyes obtained from butchering elder guardians can be used to craft a wearable elder guardian eye which grants night vision when submerged in water."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:saltblockrecipe",
+            "text": "Salt from other mods that use the forge:salt or c:salt tag will also work in Butcery's recipes."
+        }
+    ]
+}

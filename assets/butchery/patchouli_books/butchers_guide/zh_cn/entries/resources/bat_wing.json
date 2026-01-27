@@ -1,0 +1,16 @@
+{
+    "name": "蝙蝠翅膀",
+    "icon": "butchery:bat_wing",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:bat_wing",
+            "link_recipe": true,
+            "title": "蝙蝠翅膀",
+            "text": "蝙蝠翅膀在肢解蝙蝠时获得。这些可以与粗制药水酿造以获得缓降药水。"
+        }
+    ]
+}

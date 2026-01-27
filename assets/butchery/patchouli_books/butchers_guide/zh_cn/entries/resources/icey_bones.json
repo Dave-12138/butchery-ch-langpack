@@ -1,0 +1,16 @@
+{
+    "name": "冰骨",
+    "icon": "butchery:icey_bone",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:icey_bone",
+            "link_recipe": true,
+            "title": "冰骨",
+            "text": "冰骨通过肢解流浪者尸体获得。这些骨头可以在 $(l:butchery:blocks/pestle_and_mortar)杵臼$() 中研磨成冰骨粉。该骨粉可用于将普通水源方块转化为冰方块。"
+        }
+    ]
+}

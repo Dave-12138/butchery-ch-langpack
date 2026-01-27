@@ -1,0 +1,20 @@
+{
+    "name": "远古守卫者尖刺",
+    "icon": "butchery:elder_guardian_spike",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:elder_guardian_spike",
+            "link_recipe": true,
+            "title": "远古守卫者尖刺",
+            "text": "在肢解远古守卫者的过程中获得的尖刺。这些可用于制作一个尖刺陷阱，当生物和玩家接触时会对其造成伤害。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:spiketraprecipe"
+        }
+    ]
+}

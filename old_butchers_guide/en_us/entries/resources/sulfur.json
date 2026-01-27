@@ -1,0 +1,16 @@
+{
+      "name": "Sulfur",
+    "icon": "butchery:sulfur",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:sulfur",
+            "link_recipe": true,
+            "title" : "Sulfur",
+            "text": "Sulfur is used to create sulfuric acid in a brewing stand with raw sulfur and water bottles. With sulfuric acid you will be able to use it on carcasses to melt away organic materials leaving skeletal remains."
+        }
+    ]
+}

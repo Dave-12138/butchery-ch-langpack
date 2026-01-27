@@ -1,0 +1,16 @@
+{
+    "name": "蹄子",
+    "icon": "butchery:hoof",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:hoof",
+            "link_recipe": true,
+            "title": "蹄子",
+            "text": "蹄子可以在 $(l:butchery:blocks/pestle_and_mortar)杵臼$() 中使用以获得黏液球。"
+        }
+    ]
+}

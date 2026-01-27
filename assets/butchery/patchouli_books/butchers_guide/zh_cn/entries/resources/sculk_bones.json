@@ -1,0 +1,16 @@
+{
+      "name": "幽匿骨",
+    "icon": "butchery:sculk_bone",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:sculk_bone",
+            "link_recipe": true,
+            "title" : "幽匿骨",
+            "text": "幽匿骨通过肢解监守者尸体获得。这些骨头可以使用$(l:butchery:blocks/pestle_and_mortar)杵臼$()研磨成幽匿骨粉。这种骨粉可以用来将草方块转换为幽匿。"
+        }
+    ]
+}

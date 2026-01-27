@@ -1,5 +1,5 @@
 {
-    "name": "绞肉机",
+      "name": "绞肉机",
     "icon": "butchery:meat_grinder",
     "category": "butchery:blocks",
     "read_by_default": true,
@@ -10,7 +10,7 @@
             "item": "butchery:meat_grinder",
             "link_recipe": true,
             "title": "绞肉机",
-            "text": "绞肉机可用于制作香肠和碎肉。"
+            "text": "绞肉机可用于制作多种不同的食物。首先，它可以将牛肉或羊肉绞成肉末，这些肉末可用于进一步制作食谱或直接烹饪食用。另一种食物是香肠，制作香肠需要一些额外的物品，例如：香肠灌装头、肠子，如果是制作血肠，则还需要血液！绞肉机还可以用来将多余的尸体和头绞成碎肉。"
         },
         {
             "type": "patchouli:crafting",

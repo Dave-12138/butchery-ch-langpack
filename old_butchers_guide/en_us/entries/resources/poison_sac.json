@@ -1,0 +1,16 @@
+{
+      "name": "Poison Sac",
+    "icon": "butchery:poison_sac",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:poison_sac",
+            "link_recipe": true,
+            "title" : "Poison Sac",
+            "text": "Poison sac is obtained by butchering Bees. These sacs can be brewed with awkward potions to obtain Poison II potions."
+        }
+    ]
+}

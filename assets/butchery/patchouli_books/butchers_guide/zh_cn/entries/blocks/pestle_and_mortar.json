@@ -1,0 +1,20 @@
+{
+      "name": "杵臼",
+    "icon": "butchery:pestle_and_mortar",
+    "category": "butchery:blocks",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:pestle_and_mortar",
+            "link_recipe": true,
+            "title": "杵臼",
+            "text": "杵臼的用途与绞肉机类似，可以粉碎某些物品。例如，叉骨（如愿骨）可以磨成骨粉，蹄子可以磨成粘液球，而Butchery添加的骨头可以磨成它们各自的骨粉。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:pestle_and_mortar_recipe"
+        }
+    ]
+}

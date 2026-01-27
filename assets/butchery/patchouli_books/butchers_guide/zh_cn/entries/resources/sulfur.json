@@ -1,0 +1,16 @@
+{
+    "name": "硫磺",
+    "icon": "butchery:sulfur",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:sulfur",
+            "link_recipe": true,
+            "title": "硫磺",
+            "text": "硫磺用于在酿造台中，与粗硫和水瓶一起制造硫酸。有了硫酸，你就可以将其用于尸体，溶解掉有机质，留下骨骼残骸。"
+        }
+    ]
+}

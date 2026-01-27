@@ -1,0 +1,26 @@
+{
+      "name": "龙鳞盔甲",
+    "icon": "butchery:dragon_scale_armor_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:dragon_scale_armor_chestplate",
+            "link_recipe": true,
+            "title": "龙鳞盔甲",
+            "text": "龙鳞盔甲是一套通过肢解末影龙获得的新盔甲。这套盔甲不易获得，可能需要多只龙才能制作完整一套。要制作这套盔甲，你必须在锻造台上用$(l:butchery:items/dragon_smithing_template)龙鳞锻造模板$()和$(l:butchery:resources/dragon_scale)龙鳞锭$()升级下界合金盔甲。"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "butchery:dragonhelmetrecipe",
+            "recipe2": "butchery:dragonchestplaterecipe"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "butchery:dragonleggingsrecipe",
+            "recipe2": "butchery:dragon_boots_recipe"
+        }
+    ]
+}

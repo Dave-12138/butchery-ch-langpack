@@ -1,0 +1,16 @@
+{
+    "name": "毒囊",
+    "icon": "butchery:poison_sac",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:poison_sac",
+            "link_recipe": true,
+            "title": "毒囊",
+            "text": "毒囊通过肢解蜜蜂获得。这些囊可以与粗制药水酿造以获得剧毒 II 药水。"
+        }
+    ]
+}

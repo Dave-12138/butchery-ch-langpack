@@ -1,0 +1,16 @@
+{
+      "name": "Bee Wings",
+    "icon": "butchery:bee_wings",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:bee_wings",
+            "link_recipe": true,
+            "title" : "Bee Wings",
+            "text": "Bee wings obtained from butchering bees can be brewed with awkward potions into slow falling potions."
+        }
+    ]
+}

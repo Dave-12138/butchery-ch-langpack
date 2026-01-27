@@ -1,0 +1,16 @@
+{
+    "name": "Vindicator Outfit",
+    "icon": "butchery:vindicatorarmor_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:vindicatorarmor_chestplate",
+            "link_recipe": true,
+            "title" : "Vindicator Outfit",
+            "text": "Vindicator outfits can be obtained by butchering Vindicators, these are purely cosmetic. They can be recycled by combining them with a cleaver or skinning knife in a crafting table."
+        }
+    ]
+}

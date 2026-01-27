@@ -1,0 +1,21 @@
+{
+    "name": "龙鳞",
+    "icon": "butchery:dragon_scale",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:dragon_scale",
+            "link_recipe": true,
+            "title": "龙鳞",
+            "text": "龙鳞通过肢解末影龙获得。它们是获得$(l:butchery:equipment/dragon_scale_armor)龙鳞盔甲$()的关键部分。它们用于在工作台中与下界合金结合以制作龙鳞锭。"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "butchery:dragonscaleingotrecipe",
+            "recipe2": "butchery:dragonscaleblockrecipe"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "卫道士套装",
+    "icon": "butchery:vindicatorarmor_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:vindicatorarmor_chestplate",
+            "link_recipe": true,
+            "title": "卫道士套装",
+            "text": "卫道士套装可以通过肢解卫道士获得，这些套装纯属装饰性的。它们可以通过在工作台中将它们与切肉刀或剥皮刀结合来回收利用。"
+        }
+    ]
+}

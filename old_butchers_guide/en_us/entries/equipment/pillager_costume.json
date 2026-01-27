@@ -1,0 +1,16 @@
+{
+      "name": "Pillager Outfit",
+    "icon": "butchery:pillager_armor_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:pillager_armor_chestplate",
+            "link_recipe": true,
+            "title" : "Pillager Outfit",
+            "text": "Pillager outfits can be obtained by butchering Pillagers, these are purely cosmetic. They can be recycled by combining them with a cleaver or skinning knife in a crafting table. Unlike the other outfits, the Pillager outfit has the special ability to fool Pillagers into thinking you're one of them meaning they won't attack. This does not work with Vindicators and Evokers."
+        }
+    ]
+}

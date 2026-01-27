@@ -1,0 +1,20 @@
+{
+    "name": "肢解Boss",
+    "icon": "butchery:ender_dragon_carcass",
+    "category": "butchery:guides",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:ender_dragon_carcass",
+            "link_recipe": true,
+            "title": "肢解Boss",
+            "text": "肢解Boss与肢解普通生物略有不同，但大体相同。由于这些家伙的体型巨大且重量惊人，你无法捡起它们，相信我...我试过。总之，一旦用切肉刀（或在配置文件中启用时使用任何工具）给予最后一击，Boss的尸体将会掉落到地面，如果是远古守卫者则会漂浮。下一步非常简单，拿起你的切肉刀，开始肢解吧！"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "但是，要能够获取并肢解Boss的尸体，你需要使用下界合金切肉刀。"
+        }
+    ]
+}

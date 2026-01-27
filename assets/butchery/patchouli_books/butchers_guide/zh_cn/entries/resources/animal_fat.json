@@ -1,0 +1,16 @@
+{
+    "name": "动物脂肪",
+    "icon": "butchery:animal_fat",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:animal_fat",
+            "link_recipe": true,
+            "title": "动物脂肪",
+            "text": "动物脂肪在肢解过程中获得。它有几种不同的用途，例如制作蜡烛，另一个用途是作为熔炉等的低级燃料，以替代煤炭和木柴。"
+        }
+    ]
+}

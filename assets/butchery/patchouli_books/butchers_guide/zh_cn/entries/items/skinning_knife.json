@@ -10,7 +10,7 @@
             "item": "butchery:iron_skinning_knife",
             "link_recipe": true,
             "title": "剥皮刀",
-            "text": "剥皮刀用于从生物身上剥取毛皮或皮革。要剥取尸体，必须首先将其血液完全放干，然后手持剥皮刀对尸体右键点击。与切肉刀类似，剥皮刀也有五种材质，它们的功能相同，但下界合金材质的剥皮刀足够坚韧，可以处理首领生物的尸体。"
+            "text": "剥皮刀用于剥离生物的皮毛/外皮。要剥取一具尸体，必须首先将其完全放血，然后手持剥皮刀右键点击尸体。与切肉刀类似，剥皮刀有5种材料，除了下界合金（它足够坚固可以剥取首领生物的尸体）外，其余功能相同。"
         },
         {
             "type": "patchouli:crafting",
@@ -23,7 +23,7 @@
             "recipe2": "butchery:diamondskinningkniferecipe"
         },
         {
-            "type": "patchouli:crafting",
+            "type": "patchouli:smithing",
             "recipe": "butchery:netheriteskinningkniferecipe"
         }
     ]

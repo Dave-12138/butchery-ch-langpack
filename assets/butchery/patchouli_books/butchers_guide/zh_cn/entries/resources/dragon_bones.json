@@ -1,0 +1,16 @@
+{
+    "name": "龙骨",
+    "icon": "butchery:dragon_bone",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:dragon_bone",
+            "link_recipe": true,
+            "title": "龙骨",
+            "text": "龙骨通过肢解末影龙获得。它们是获得$(l:butchery:equipment/dragon_scale_armor)龙鳞盔甲$()的关键部分。必须在石切机中磨尖以获得尖刺龙骨。"
+        }
+    ]
+}

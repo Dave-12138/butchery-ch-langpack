@@ -1,0 +1,16 @@
+{
+    "name": "获取尸体",
+    "icon": "butchery:pig_carcass",
+    "category": "butchery:guides",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:pig_carcass",
+            "link_recipe": true,
+            "title": "获取尸体",
+            "text": "获取生物的尸体非常简单。你只需要一把切肉刀（除非在配置文件中启用了任何武器/工具来掉落尸体）。只需用切肉刀杀死你想要的生物，这会导致生物的尸体掉落，然后捡起来即可！你可能注意到你感觉有点迟缓，为什么？尸体很轻，你知道的..在物品栏中携带尸体会引起缓慢效果。（可以在配置文件中禁用）"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+      "name": "Hoofs",
+    "icon": "butchery:hoof",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:hoof",
+            "link_recipe": true,
+            "title" : "Hoofs",
+            "text": "Hoofs can be used in the $(l:butchery:blocks/pestle_and_mortar)pestle and mortar$() to obtain slime balls."
+        }
+    ]
+}

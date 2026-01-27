@@ -1,0 +1,16 @@
+{
+      "name": "掠夺者套装",
+    "icon": "butchery:pillager_armor_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:pillager_armor_chestplate",
+            "link_recipe": true,
+            "title": "掠夺者套装",
+            "text": "掠夺者套装可以通过肢解掠夺者获得，这些套装纯属装饰性的。它们可以通过在工作台中将它们与切肉刀或剥皮刀结合来回收利用。与其他套装不同，掠夺者套装拥有特殊能力，能让掠夺者误以为你是它们的一员，这意味着它们不会攻击你。此效果对卫道士和唤魔者无效。"
+        }
+    ]
+}

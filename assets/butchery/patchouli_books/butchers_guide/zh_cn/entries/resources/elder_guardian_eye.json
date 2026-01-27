@@ -1,0 +1,21 @@
+{
+    "name": "远古守卫者眼球",
+    "icon": "butchery:elder_guardian_eye",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:elder_guardian_eye",
+            "link_recipe": true,
+            "title": "远古守卫者眼球",
+            "text": "通过肢解远古守卫者获得的远古守卫者眼球，可用于制作一个可佩戴的远古守卫者眼球，当浸入水中时可提供夜视效果。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:saltblockrecipe",
+            "text": "其他模组中使用了 forge:salt 或 c:salt 标签的盐，也可用于 Butchery 的配方。"
+        }
+    ]
+}

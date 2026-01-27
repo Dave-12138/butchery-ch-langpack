@@ -1,0 +1,16 @@
+{
+      "name": "Wither Bones",
+    "icon": "butchery:wither_bone",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:wither_bone",
+            "link_recipe": true,
+            "title" : "Wither Bones",
+            "text": "Wither bones obtained from butchering wither skeletons corpses. The bones can be ground into wither bone meal using the $(l:butchery:blocks/pestle_and_mortar)pestle and mortar$(). The bonemeal can then be used to convert regular roses into wither roses, this is a chance bases conversion so it will not work every time."
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+      "name": "Icey Bones",
+    "icon": "butchery:icey_bone",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:icey_bone",
+            "link_recipe": true,
+            "title" : "Icey Bones",
+            "text": "Icey bones obtained from butchering stray corpses. The bones can be ground into icey bone meal using the $(l:butchery:blocks/pestle_and_mortar)pestle and mortar$(). The bonemeal can then be used to convert regular water source blocks into ice blocks."
+        }
+    ]
+}

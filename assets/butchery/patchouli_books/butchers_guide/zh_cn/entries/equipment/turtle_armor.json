@@ -1,0 +1,26 @@
+{
+  "name": "龟壳盔甲",
+  "icon": "butchery:turtle_shell_armor_chestplate",
+  "category": "butchery:equipment",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "butchery:turtle_shell_armor_chestplate",
+      "link_recipe": true,
+      "title": "龟壳盔甲",
+      "text": "龟壳盔甲可以通过肢解海龟获得的龟壳碎片来制作。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "butchery:turtleshellfragmentrecipe",
+      "recipe2": "butchery:turtlechestplaterecipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "butchery:turtleleggingsrecipe",
+      "recipe2": "butchery:turtlebootsrecipe"
+    }
+  ]
+}

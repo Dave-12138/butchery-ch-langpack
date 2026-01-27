@@ -23,7 +23,7 @@
             "recipe2": "butchery:diamondhammerrecipe"
         },
         {
-            "type": "patchouli:crafting",
+            "type": "patchouli:smithing",
             "recipe": "butchery:netheritehammerrecipe"
         }
     ]

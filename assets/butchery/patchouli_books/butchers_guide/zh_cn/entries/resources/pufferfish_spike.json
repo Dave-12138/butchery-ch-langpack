@@ -1,0 +1,16 @@
+{
+    "name": "河豚尖刺",
+    "icon": "butchery:pufferfish_spike",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:pufferfish_spike",
+            "link_recipe": true,
+            "title": "河豚尖刺",
+            "text": "河豚尖刺通过肢解河豚获得。这些尖刺可以在酿造台中与粗制药水一同使用，以制作剧毒药水。"
+        }
+    ]
+}

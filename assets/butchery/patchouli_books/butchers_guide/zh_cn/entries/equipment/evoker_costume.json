@@ -1,0 +1,16 @@
+{
+      "name": "唤魔者套装",
+    "icon": "butchery:evoker_robes_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:evoker_robes_chestplate",
+            "link_recipe": true,
+            "title": "唤魔者套装",
+            "text": "唤魔者套装可以通过肢解唤魔者获得，这些套装纯属装饰性的。它们可以通过在工作台中将它们与切肉刀或剥皮刀结合来回收利用。"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+      "name": "Butchering Carcasses",
+    "icon": "butchery:hook",
+    "category": "butchery:guides",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:hook",
+            "link_recipe": true,
+            "title" : "Butchering Carcasses",
+            "text": "Most carcasses/corpses are butchered in the same way, however there are some exceptions. However we’re going to cover the regular butchering process. Before being able to butcher the carcass you will need to hang it and bleed it. This will require a hook, you can read more about these here. One you have your hook simply right click it whilst holding the carcass, this will place the carcass onto the hook."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Now you will need a cleaver, any material will do. Right click the hanging carcass whilst holding your cleaver and you will start to see blood dripping. Make sure to have a blood grate below to catch the blood otherwise you’ll end up with a huge mess! This process only takes a few seconds, you will know it’s done as the carcass will change into its drained variants (some also turn lighter to indicate it’s drained)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Now you have a drained carcass! From here you have 2 options. Leave the carcass on the hook to butcher or Break the carcass and pick it up, then you can place it on the butchers table (table is not required) Now once again with your trusty cleaver, right click the carcass whilst holding the cleaver to start butchering. Most carcass will require a second tool to butcher, this tool is the skinning knife. As you can guess by the name this knife skins the carcass to obtain the skin (this process applies to removing armour from other mobs such as Pillager)."
+        }
+    ]
+}

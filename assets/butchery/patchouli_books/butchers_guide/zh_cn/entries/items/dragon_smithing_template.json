@@ -1,0 +1,20 @@
+{
+    "name": "龙鳞锻造模板",
+    "icon": "butchery:dragon_smithing_template",
+    "category": "butchery:items",
+    "read_by_default": true,
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:dragon_smithing_template",
+            "link_recipe": true,
+            "title": "龙鳞锻造模板",
+            "text": "龙鳞锻造模板是用于将下界合金盔甲升级为$(l:butchery:equipment/dragon_scale_armor)龙鳞盔甲$()的必需品。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:dragonsmithingtemplaterecipe"
+        }
+    ]
+}

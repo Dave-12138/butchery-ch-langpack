@@ -1,0 +1,16 @@
+{
+      "name": "Obtaining Carcasses",
+    "icon": "butchery:pig_carcass",
+    "category": "butchery:guides",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:pig_carcass",
+            "link_recipe": true,
+            "title" : "Obtaining Carcasses",
+            "text": "To obtain a mobs carcass is quite simple. All you need a cleaver (unless any weapon/tool is enabled to drop carcasses in the config). Simply kill your desired mob with the cleaver, this will cause the mobs carcass to drop then simply pick it up! You may noticed you’re feeling a bit sluggish, why? Carcasses are light you know.. Carrying carcasses causes slowness effect when in your inventory. (Can be disabled in the config)"
+        }
+    ]
+}

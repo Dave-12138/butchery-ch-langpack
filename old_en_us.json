@@ -32,7 +32,7 @@
     "item.butchery.cow_skin": "Cow Skin",
     "item.butchery.cooked_leg_of_lamb": "Cooked Leg Of Lamb",
     "item.butchery.animal_fat": "Animal Fat",
-    "item.butchery.cooked_rump_steak": "Cooked Chuck Steak",
+    "item.butchery.cooked_rump_steak": "Cooked Rump Steak",
     "item.butchery.cooked_lungs": "Lungs",
     "block.butchery.crimson_butchers_table": "Crimson Butchers Table",
     "item.butchery.raw_chuck_steak": "Raw Chuck Steak",
@@ -56,7 +56,7 @@
     "block.butchery.glow_squid_carcass": "Glow Squid Carcass",
     "item.butchery.cooked_dolphin_meat": "Cooked Dolphin Meat",
     "item.butchery.enderman_lungs": "Raw Enderman Lungs",
-    "item.butchery.cooked_ribeye_steak": "Cooked Chuck Steak",
+    "item.butchery.cooked_ribeye_steak": "Cooked Ribeye Steak",
     "item.butchery.raw_leg_of_lamb": "Raw Leg Of Lamb",
     "item.butchery.stomach": "Stomach",
     "item.butchery.cookedlungs": "Lungs",
@@ -883,5 +883,12 @@
     "block.butchery.drainedplayercorpse": "Drained Player Corpse",
     "item.butchery.flesh": "Flesh",
     "item.butchery.rawhumanmeat": "Raw Human Meat",
-    "item.butchery.cookedhumanmeat": "Cooked Human Meat"
+    "item.butchery.cookedhumanmeat": "Cooked Human Meat",
+    "block.butchery.jar": "Jar",
+    "block.butchery.ravager": "Ravager Carcass",
+    "block.butchery.ravager_head": "Ravager Head",
+    "item.butchery.ravager_carcass": "Ravager Carcass",
+    "item.butchery.raw_ravager_meat": "Raw Ravager Meat",
+    "item.butchery.cooked_ravager_meat": "Cooked Ravager Meat",
+    "block.butchery.ravager_head_mount": "Ravager Head Mount"
 }

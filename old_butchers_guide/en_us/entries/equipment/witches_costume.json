@@ -1,0 +1,16 @@
+{
+      "name": "Witches Outfit",
+    "icon": "butchery:witches_clothes_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:witches_clothes_chestplate",
+            "link_recipe": true,
+            "title" : "Witches Outfit",
+            "text": "Witches outfits can be obtained by butchering Witches, these are purely cosmetic. They can be recycled by combining them with a cleaver or skinning knife in a crafting table."
+        }
+    ]
+}

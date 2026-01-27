@@ -1,0 +1,25 @@
+{
+      "name": "Meat Conversion",
+    "icon": "minecraft:beef",
+    "category": "butchery:guides",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:beef",
+            "link_recipe": true,
+            "title" : "Meat Conversion",
+            "text": "Don't want to use Butchery's meat? No problem! Butchery's meat can be converted to vanilla meat, to do this simply place the meat inside a crafting table. Provided there is a vanilla counterpart. You can also use Farmer's Delight chopping board for this!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:beefconversion",
+            "recipe2": "butchery:porkconversion"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:muttonconversion"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
       "name": "Salt",
     "icon": "butchery:salt",
-    "category": "butchery:items",
+    "category": "butchery:resources",
     "read_by_default": true,
     "sortnum": 4,
     "pages": [

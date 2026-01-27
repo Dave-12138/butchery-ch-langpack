@@ -1,0 +1,21 @@
+{
+      "name": "Dragon Scale",
+    "icon": "butchery:dragon_scale",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:dragon_scale",
+            "link_recipe": true,
+            "title" : "Dragon Scale",
+            "text": "Dragon scales obtained by Butchering End Dragons. They are a vital piece in obtaining $(l:butchery:equipment/dragon_scale_armor)Dragon Scale Armor$(). They are used to create dragon scale ingots when combined with netherite in a crafting table."
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "butchery:dragonscaleingotrecipe",
+            "recipe2": "butchery:dragonscaleblockrecipe"
+        }
+    ]
+}

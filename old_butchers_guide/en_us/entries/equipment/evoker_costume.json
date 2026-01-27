@@ -1,0 +1,16 @@
+{
+      "name": "Evoker Outfit",
+    "icon": "butchery:evoker_robes_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:evoker_robes_chestplate",
+            "link_recipe": true,
+            "title" : "Evoker Outfit",
+            "text": "Evoker outfits can be obtained by butchering Evokers, these are purely cosmetic. They can be recycled by combining them with a cleaver or skinning knife in a crafting table."
+        }
+    ]
+}

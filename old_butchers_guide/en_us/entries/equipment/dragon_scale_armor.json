@@ -1,0 +1,26 @@
+{
+      "name": "Dragon Scale Armor",
+    "icon": "butchery:dragon_scale_armor_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:dragon_scale_armor_chestplate",
+            "link_recipe": true,
+            "title" : "Dragon Scale Armor",
+            "text": "Dragon scale armor is a new set of armor obtained by Butchering the End Dragon. This set is not easy to come by and can take multiple dragons to make a complete set. To craft this set you must upgrade netherite armor with $(l:butchery:items/dragon_smithing_template)Dragon Smithing Templates$() and $(l:butchery:resources/dragon_scale)Dragon Scale Ingots$() in a smithing table. "
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "butchery:dragonhelmetrecipe",
+            "recipe2": "butchery:dragonchestplaterecipe"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "butchery:dragonleggingsrecipe",
+            "recipe2": "butchery:dragon_boots_recipe"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "罐子",
+    "icon": "butchery:jar",
+    "category": "butchery:blocks",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:jar",
+            "link_recipe": true,
+            "title": "罐子",
+            "text": "罐子可用于展示不同的器官。手持器官时右键点击罐子即可添加器官，这会消耗器官；要取回器官，只需破坏罐子。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:jarrecipe"
+        }
+    ]
+}

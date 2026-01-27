@@ -1,0 +1,16 @@
+{
+    "name": "女巫套装",
+    "icon": "butchery:witches_clothes_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:witches_clothes_chestplate",
+            "link_recipe": true,
+            "title": "女巫套装",
+            "text": "女巫套装可以通过肢解女巫获得，这些套装纯属装饰性的。它们可以通过在工作台中将它们与切肉刀或剥皮刀结合来回收利用。"
+        }
+    ]
+}

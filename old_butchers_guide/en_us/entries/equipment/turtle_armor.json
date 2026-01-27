@@ -1,0 +1,26 @@
+{
+      "name": "Turtle Shell Armor",
+    "icon": "butchery:turtle_shell_armor_chestplate",
+    "category": "butchery:equipment",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:turtle_shell_armor_chestplate",
+            "link_recipe": true,
+            "title" : "Turtle Shell Armor",
+            "text": "The turtle shell armor can be crafted from shell fragments obtained when butchering turtles."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:turtleshellfragmentrecipe",
+            "recipe2": "butchery:turtlechestplaterecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:turtleleggingsrecipe",
+            "recipe2": "butchery:turtlebootsrecipe"
+        }
+    ]
+}

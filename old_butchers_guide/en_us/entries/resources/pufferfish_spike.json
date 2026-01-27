@@ -1,0 +1,16 @@
+{
+      "name": "Pufferfish Spike",
+    "icon": "butchery:pufferfish_spike",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:pufferfish_spike",
+            "link_recipe": true,
+            "title" : "Pufferfish Spike",
+            "text": "Pufferfish spikes obtained from butchering a pufferfish. These spikes can be used in a brewing station alongside awkward potions can create potions of poison."
+        }
+    ]
+}

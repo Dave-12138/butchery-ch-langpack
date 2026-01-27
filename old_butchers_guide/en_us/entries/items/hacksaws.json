@@ -1,0 +1,30 @@
+{
+      "name": "Hacksaws",
+    "icon": "butchery:iron_hacksaw",
+    "category": "butchery:items",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:iron_hacksaw",
+            "link_recipe": true,
+            "title" : "Hacksaws",
+            "text": "Hacksaws are required for butchering some of the tougher mobs that cleavers just can't touch, for example Iron Golems. Hacksaws are used the same for these mobs as cleavers are for regular mobs by right clicking carcasses with them."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:bonehacksawrecipe",
+            "recipe2": "butchery:ironhacksawrecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:goldhacksawrecipe",
+            "recipe2": "butchery:diamondhacksawrecipe"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "butchery:netheritehacksawrecipe"
+        }
+    ]
+}

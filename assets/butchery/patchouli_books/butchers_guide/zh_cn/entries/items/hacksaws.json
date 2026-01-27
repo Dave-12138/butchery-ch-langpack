@@ -1,0 +1,30 @@
+{
+    "name": "钢锯",
+    "icon": "butchery:iron_hacksaw",
+    "category": "butchery:items",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:iron_hacksaw",
+            "link_recipe": true,
+            "title": "钢锯",
+            "text": "钢锯用于肢解一些切肉刀无法触及的更强壮生物，例如铁傀儡。钢锯对这些生物的使用方式与切肉刀对普通生物相同，通过右键点击尸体来使用。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:bonehacksawrecipe",
+            "recipe2": "butchery:ironhacksawrecipe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:goldhacksawrecipe",
+            "recipe2": "butchery:diamondhacksawrecipe"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "butchery:netheritehacksawrecipe"
+        }
+    ]
+}

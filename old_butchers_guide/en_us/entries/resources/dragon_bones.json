@@ -1,0 +1,16 @@
+{
+      "name": "Dragon Bones",
+    "icon": "butchery:dragon_bone",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:dragon_bone",
+            "link_recipe": true,
+            "title" : "Dragon Bones",
+            "text": "Dragon bones obtained by Butchering End Dragons. They are a vital piece in obtaining $(l:butchery:equipment/dragon_scale_armor)Dragon Scale Armor$(). They must be sharpened in a stonecutter to obtain Spiked Dragon Bones."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+      "name": "Pestle & Mortar",
+    "icon": "butchery:pestle_and_mortar",
+    "category": "butchery:blocks",
+    "read_by_default": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:pestle_and_mortar",
+            "link_recipe": true,
+            "title" : "Pestle & Mortar",
+            "text": "The pestle and mortar has similar uses to the grinder in which is can crush up certain items. For example wishbones can be ground into bonemeal, hoofs into slimeballs and bones added by butchery into their respective bone meals."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:pestle_and_mortar_recipe"
+        }
+    ]
+}

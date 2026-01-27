@@ -1,0 +1,20 @@
+{
+    "name": "皮",
+    "icon": "butchery:cow_skin",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:cow_skin",
+            "link_recipe": true,
+            "title": "皮",
+            "text": "皮通过屠宰尸体获得。这些皮可以放在$(l:butchery:blocks/skin_rack)晾皮架$()上，并转换为皮革。"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:butcherspapersrecipe"
+        }
+    ]
+}

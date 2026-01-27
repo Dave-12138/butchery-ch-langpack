@@ -1,0 +1,16 @@
+{
+      "name": "Animal Fat",
+    "icon": "butchery:animal_fat",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:animal_fat",
+            "link_recipe": true,
+            "title" : "Animal Fat",
+            "text": "Animal fat is obtained during butchering. It has a few different uses such as creating candles, another use is as a low grade fuel in furnaces etc. instead of coal and wood."
+        }
+    ]
+}
