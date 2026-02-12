@@ -886,5 +886,6 @@
     "item.butchery.ravager_carcass": "劫掠兽尸体",
     "item.butchery.raw_ravager_meat": "生劫掠兽肉",
     "item.butchery.cooked_ravager_meat": "熟劫掠兽肉",
-    "block.butchery.ravager_head_mount": "劫掠兽头壁挂"
+    "block.butchery.ravager_head_mount": "劫掠兽头壁挂",
+    "item.butchery.bird_foot": "鸡爪"
 }

@@ -221,7 +221,6 @@
     "item.butchery.blood_bucket": "Bucket of Blood",
     "block.butchery.salt_block": "Salt",
     "item.butchery.goat_skin": "Goat Skin",
-    "item.butchery.chicken_foot": "Chicken Foot",
     "item.butchery.cookedliver": "Cooked Liver",
     "block.butchery.drained_chicken_carcass": "Drained Chicken Carcass",
     "item.butchery.raw_tbone_steak": "Raw T-bone Steak",
@@ -890,5 +889,6 @@
     "item.butchery.ravager_carcass": "Ravager Carcass",
     "item.butchery.raw_ravager_meat": "Raw Ravager Meat",
     "item.butchery.cooked_ravager_meat": "Cooked Ravager Meat",
-    "block.butchery.ravager_head_mount": "Ravager Head Mount"
+    "block.butchery.ravager_head_mount": "Ravager Head Mount",
+    "item.butchery.bird_foot": "Chicken Foot"
 }
