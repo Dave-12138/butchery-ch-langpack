@@ -1,6 +1,6 @@
 
 /diff.json
-/diff*.json
+/diff*.*
 
 /en_us.json
 
@@ -8,4 +8,4 @@
 
 diff_butchers_guide/
 
-prompt.txt
+prompt*.txt

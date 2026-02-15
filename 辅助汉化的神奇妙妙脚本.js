@@ -71,7 +71,10 @@ try {
             const toTableTuple = k => [k, en0[k], en[k], zh[k]].map(r => r ?? "<empty>");
             write("diff.json", changedKeys.reduce((p, v) => Object.assign(p, { [v]: zh[v] ? zh[v] + `(${en[v]})` : en[v] }), {}));
             write("diff2.json", changedKeys.map(toTableTuple));
-            write("diff3.json", [...Object.keys(zh), ...Object.keys(en)].filter((e, i, a) => a.findIndex(x => x == e) == i).map(toTableTuple));
+            /**@type {string[][]} */
+            const diff3 = [...Object.keys(zh), ...Object.keys(en)].filter((e, i, a) => a.findIndex(x => x == e) == i).map(toTableTuple);
+            write("diff3.json", diff3);
+            write("diff3.csv", `id,旧版原文,新版原文,旧版翻译\n` + diff3.map(l => l.map(t => t.includes(',') ? JSON.stringify(t) : t).join(',')).join('\n'));
             // guide
             // 先清理
             // deep(pathDiffGuide).forEach(f => fs.rmSync(f));
