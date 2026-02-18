@@ -8,10 +8,11 @@ Minecraft mod [Butchery](https://www.mcmod.cn/class/13840.html) ([curseforge](ht
 2. 把下载的压缩包放进 `resourcepacks` 文件夹里
     - 不知道在哪可以先启动游戏，进入“选项”、“资源包”，点击“打开资源包文件夹”
 3. 在游戏中启用
-    - <details><summary>依次进入“选项”、“资源包”</summary><img src="./docs/图2.png" alt="资源包设置" /></details>
-    - <details><summary>在左侧找到有**Butchery汉化**字样的zip，点击▶️形按钮</summary><img src="./docs/图3.png" alt="添加资源包" /></details>
+    - 依次进入“选项”、“资源包”
+    - 在左侧找到有**Butchery汉化**字样的zip，点击▶️形按钮
     - 点击完成
- 
+    
+![添加资源包](./docs/添加资源包.png)
 
 
 
