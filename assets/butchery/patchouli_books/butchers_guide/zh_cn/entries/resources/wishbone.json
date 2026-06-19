@@ -1,0 +1,16 @@
+{
+      "name": "叉骨（如愿骨）",
+    "icon": "butchery:wishbone",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:wishbone",
+            "link_recipe": true,
+            "title" : "叉骨（如愿骨）",
+            "text": "对已放血的鸡的尸体空手右键可获得叉骨，此过程基于概率，因此你可能会获得碎叉骨，碎叉骨可在绞肉机中磨成骨粉。若成功获得叉骨，你可以在酿造台中使用下界之星为其注入魔法。这需要3个叉骨和1个下界之星。打破魔法如愿骨会引发随机事件。有些是好的，有些是非常好的，还有些是坏的……非常坏的。（不要在基地里打破魔法如愿骨！）"
+        }
+    ]
+}

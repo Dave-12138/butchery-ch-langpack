@@ -1,0 +1,16 @@
+{
+      "name": "Wishbone",
+    "icon": "butchery:wishbone",
+    "category": "butchery:resources",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:wishbone",
+            "link_recipe": true,
+            "title" : "Wishbone",
+            "text": "Wishbones can be obtained from drained chicken carcasses by right-clicking with an empty hand, this is chance based so you may receive a broken wishbone which can be ground into bonemeal in the meat grinder. If you are successful in receiving a wishbone you will be able to imbue it with the magic of a Nether Star in a brewing stand. This requires 3 wishbones and 1 nether star. Breaking a magic wishbone will cause random events to happen. Some of which will be good, some will be really good and some bad...very bad. (DO NOT BREAK THE MAGIC WISHBONE IN YOUR BASE!)"
+        }
+    ]
+}
