@@ -26,3 +26,4 @@ Minecraft mod [Butchery](https://www.mcmod.cn/class/13840.html) ([curseforge](ht
     - `diff3.json`同上，但不是更新差异而是全部的对照
 1. 打开`diff_butchers_guide/zh_cn`文件夹，把里面的json文件挨个翻一遍
 1. 翻译结束后运行`npm run merge`合并结果
+1. 收尾运行`npm run clean`，清掉diff产物（`diff*.json`、`diff_butchers_guide`）和贴进来的英文原文件（`en_us.json`、`butchers_guide`）

@@ -109,6 +109,14 @@ try {
                 fs.copyFileSync(f, opath);
             })
         },
+        clean() {
+            // 清理 diff 产物
+            ["diff.json", "diff2.json", "diff3.json", "diff3.csv"].forEach(f => fs.rmSync(f, { force: true }));
+            fs.rmSync(path.dirname(pathDiffGuide), { recursive: true, force: true });
+            // 清理手动贴进来的新文件
+            fs.rmSync("en_us.json", { force: true });
+            fs.rmSync(path.dirname(pathEnGuide), { recursive: true, force: true });
+        },
     }
     uparam[process.argv[2]?.trim()]?.();
 } catch (e) {
