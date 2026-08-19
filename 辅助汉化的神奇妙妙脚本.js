@@ -45,7 +45,8 @@ const pathEnGuide = path.join('./butchers_guide/en_us/');
 const pathOldEnGuide = path.join('./old_butchers_guide/en_us/');
 const pathDiffGuide = path.join('./diff_butchers_guide/zh_cn/');
 function hashFile(fpath) {
-    return createHash("md5").update(fs.readFileSync(fpath)).digest('hex');
+    // 剔除回车符，避免 CRLF/LF 换行差异导致 MD5 不同、diff 误报
+    return createHash("md5").update(fs.readFileSync(fpath, "utf8").replaceAll('\r', '')).digest('hex');
 }
 function guideNoChange(fpath) {
     const oldPath = fpath.replace(pathEnGuide, pathOldEnGuide);
