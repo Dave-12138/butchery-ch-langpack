@@ -110,7 +110,7 @@ try {
             })
         },
     }
-    uparam[process.env.STEP?.trim()]?.();
+    uparam[process.argv[2]?.trim()]?.();
 } catch (e) {
     console.log(e)
 }
