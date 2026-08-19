@@ -1,0 +1,5 @@
+# 统一 LF 换行符：文本文件入库、检出均为 LF（Windows 上也不会被转成 CRLF）
+* text=auto eol=lf
+
+# 二进制文件不做换行符处理
+*.png binary
