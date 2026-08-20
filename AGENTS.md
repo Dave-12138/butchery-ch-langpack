@@ -1,12 +1,14 @@
 # Butchery Chinese Localization Pack (butchery-ch-langpack)
 
 ## Project
+
 - Minecraft resource pack that localizes the mod **Butchery** (modid `butchery`) into Simplified Chinese (汉化). Mod pages: [mcmod.cn/class/13840](https://www.mcmod.cn/class/13840.html), [curseforge](https://www.curseforge.com/minecraft/mc-mods/butchery).
 - Shipped artifact is a zip of `pack.mcmeta` + `assets/`, built by GitHub Actions on tag push.
 - Repo language is Chinese: README, prompts, and commit messages are all in Chinese.
 - Repo root mixes tracked deliverables with gitignored working artifacts for the translation workflow (see Architecture/Pitfalls).
 
 ## Commands
+
 - No dependencies — the helper script uses Node built-ins only. No install/build/test/lint.
 - Translation helper: `node 辅助汉化的神奇妙妙脚本.js diff|merge|clean`, driven by an unnamed (positional) argument, not an env var (package.json scripts `npm run diff` / `npm run merge` / `npm run clean`).
 - `npm run diff` / `npm run merge` / `npm run clean` work on any shell — the wrapper just appends the positional arg (`node "...脚本.js" diff|merge|clean`). No env var is involved anymore.
@@ -14,9 +16,10 @@
 - JSON sanity check after edits: `node -e 'JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"))' file.json`.
 
 ## Architecture
+
 - `assets/butchery/` — the pack payload (namespace `butchery`; the modid was `butcher` in old history).
-  - `lang/zh_cn.json` — the language file (tracked). Keys: `item.butchery.*`, `block.butchery.*`, `advancements.*`, `subtitles.*`.
-  - `patchouli_books/butchers_guide/zh_cn/` — translated Patchouli guide: `categories/*.json` + `entries/<topic>/*.json` (tracked).
+  + `lang/zh_cn.json` — the language file (tracked). Keys: `item.butchery.*`, `block.butchery.*`, `advancements.*`, `subtitles.*`.
+  + `patchouli_books/butchers_guide/zh_cn/` — translated Patchouli guide: `categories/*.json` + `entries/<topic>/*.json` (tracked).
 - Other tracked root files: `pack.mcmeta`, `old_en_us.json` (previous upstream English snapshot), `old_butchers_guide/en_us/` (previous upstream guide snapshot), `.gitattributes` (all text files LF, see Pitfalls).
 - Gitignored working artifacts (never commit): `en_us.json` + `butchers_guide/en_us/` (fresh upstream files copied from the mod jar), `diff.json`/`diff2.json`/`diff3.json`/`diff3.csv`, `diff_butchers_guide/zh_cn/` (guide files awaiting translation), `prompt.md`, `prompt-extrarules.txt`.
 - Translation cycle (script `辅助汉化的神奇妙妙脚本.js`):
@@ -29,6 +32,7 @@
 - `prompt.md` is the obsolete translation-agent prompt (Windows-only paths, old per-turn rules); its useful content is extracted into this file — ignore it.
 
 ## Conventions
+
 - Terminology is binding: `prompt-extrarules.txt` (gitignored, author-local) maps ~150 terms (Basin→晒盐盆, Blood Grate→排血渠, Wishbone→叉骨（如愿骨）, …). If it is missing, follow the existing `zh_cn.json` style.
 - Creature names must match official Minecraft Chinese names (末影人, 疣猪兽, 监守者…); translate color adjectives (Gray→灰色…); keep `§` format codes verbatim; keep in-game instruction phrasing natural.
 - Mod names (incl. "Butchery") stay untranslated. `butcher` as a verb → 肢解/解剖/分解, never 宰杀.
@@ -37,9 +41,10 @@
 - Never modify already-translated files (`assets/butchery/lang/zh_cn.json`, the translated guide) during a diff cycle unless the user explicitly asks for corrections — they are the style reference.
 - Existing translations are AI-assisted and may be wrong or awkward; when something looks off, verify against the English original before reusing it.
 - Advancements (titles/descriptions) and painting titles/authors are 意译 (idiomatic), not literal.
-- 提交摘要统一按 Angular 规范、用中文书写（agent 代写，不再用版本号偷懒）：纯翻译更新如 `feat(lang): 同步 5.1 版翻译`，脚本/工程改动如 `refactor(script): 模式控制由环境变量改为不具名位置参数`；tag 发版仍用对应版本号。
+- 提交摘要统一按 Angular 规范、用中文书写：纯翻译更新如 `feat(lang): 同步 5.1 版翻译`，脚本/工程改动如 `refactor(script): 模式控制由环境变量改为不具名位置参数`；tag 发版仍用对应版本号。
 
 ## Pitfalls
+
 - Passing an unknown/empty mode (e.g. bare `node 辅助汉化的神奇妙妙脚本.js`) makes the script silently do nothing; always pass `diff`, `merge` or `clean`.
 - `clean` deletes unmerged diff artifacts and pasted upstream files without warning — only run it after merge (or when you want to restart the cycle from scratch); it never touches tracked files.
 - **Rerunning diff destroys unmerged work**: it `rmSync`s `diff_butchers_guide/zh_cn` and regenerates `diff*.json` from tracked files. Never rerun it mid-cycle; merge first.
@@ -51,4 +56,5 @@
 - All JSON must stay valid; the game fails silently on malformed lang/guide files. The script writes with 4-space indent.
 
 ## Maintenance
+
 - Update this file in place whenever you discover new repo-specific commands, conventions, or pitfalls. Keep entries short, evidence-based, and accurate; remove stale ones.
