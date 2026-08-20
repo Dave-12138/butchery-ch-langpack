@@ -20,7 +20,7 @@
 - Other tracked root files: `pack.mcmeta`, `old_en_us.json` (previous upstream English snapshot), `old_butchers_guide/en_us/` (previous upstream guide snapshot), `.gitattributes` (all text files LF, see Pitfalls).
 - Gitignored working artifacts (never commit): `en_us.json` + `butchers_guide/en_us/` (fresh upstream files copied from the mod jar), `diff.json`/`diff2.json`/`diff3.json`/`diff3.csv`, `diff_butchers_guide/zh_cn/` (guide files awaiting translation), `prompt.md`, `prompt-extrarules.txt`.
 - Translation cycle (script `辅助汉化的神奇妙妙脚本.js`):
-  1. Copy new `en_us.json` and `butchers_guide/en_us/` from the unpacked mod jar into the repo root.
+  1. From the unpacked mod jar, copy the new `assets/butchery/lang/en_us.json` to the repo root as `en_us.json`, and copy the new guide `assets/butchery/patchouli_books/butchers_guide/en_us/` to the repo root as `butchers_guide/en_us/` (keep the jar's relative layout).
   2. `node 辅助汉化的神奇妙妙脚本.js diff`: writes the diff files (keys changed vs `old_en_us.json`); copies guide files whose MD5 differs from `old_butchers_guide/en_us` into `diff_butchers_guide/zh_cn/` (same relative layout).
   3. Translate `diff.json` and every file under `diff_butchers_guide/zh_cn/`.
   4. `node 辅助汉化的神奇妙妙脚本.js merge`: writes `diff.json` values into `assets/butchery/lang/zh_cn.json`, copies translated guide files into `assets/.../zh_cn/`, then snapshots `en_us.json` → `old_en_us.json` and `butchers_guide/en_us` → `old_butchers_guide/en_us` so the next diff only shows new changes.
