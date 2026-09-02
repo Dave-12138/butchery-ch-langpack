@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 获取仓库文件
-        uses: actions/checkout@v2 
+        uses: actions/checkout@v7
       - name: 创建压缩包
         run: zip -r butchery-cn.zip pack.mcmeta assets
       - name: 创建release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: butchery-cn.zip
           token: ${{ secrets.GITHUB_TOKEN }}
