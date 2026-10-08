@@ -52,7 +52,8 @@
 - README tells users to download `butcher-cn.zip`, but CI produces `butchery-cn.zip` — the README lags behind; fix it if you touch it.
 - `pack.mcmeta` `pack_format` must match the target Minecraft version (currently 34 ≈ MC 1.20.5); a historical commit is literally "忘了改pack_format" (forgot to bump pack_format).
 - Line endings are controlled by `.gitattributes` (`* text=auto eol=lf`, `*.png binary`): every text file is stored and checked out as LF, even on Windows. If `git status` ever shows a whole file as modified with no content change, it is CRLF churn — restore it instead of committing it.
-- Mod jar files may carry CRLF: pasted `butchers_guide/` then diff against the LF snapshot would flag *every* guide file as changed. The script strips `\r` before hashing (`hashFile` uses `replaceAll('\r','')`), so line-ending churn is ignored — no manual normalization needed.
+- Mod jar files may carry CRLF: pasted `butchers_guide/` then diff against the LF snapshot would flag *every* guide file as changed. The script strips `\r` before hashing (`hashFile` uses `replaceAll('\r','')`), so diff 阶段无需手动处理；但 `merge` 是原样拷贝，跟踪的 `old_butchers_guide/` 仍可能变成 CRLF（见下条）。
+- CRLF 工作区归一化：`git checkout-index -f -a` 按 `.gitattributes` 的 LF 规则重写全部已跟踪文件，再 `git add --renormalize .` 刷新索引 stat 缓存，`git status` 立即归零（内容与 HEAD 相同，不会产生提交）。
 - All JSON must stay valid; the game fails silently on malformed lang/guide files. The script writes with 4-space indent.
 
 ## Maintenance
