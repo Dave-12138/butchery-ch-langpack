@@ -863,8 +863,6 @@
     "block.butchery.playercorpse": "Player Corpse",
     "block.butchery.drainedplayercorpse": "Drained Player Corpse",
     "item.butchery.flesh": "Flesh",
-    "item.butchery.rawhumanmeat": "Raw Human Meat",
-    "item.butchery.cookedhumanmeat": "Cooked Human Meat",
     "block.butchery.jar": "Jar",
     "block.butchery.ravager": "Ravager Carcass",
     "block.butchery.ravager_head": "Ravager Head",
@@ -878,5 +876,17 @@
     "block.butchery.enderman_carcass": "Enderman Carcass",
     "item.butchery.enderman": "Enderman Carcass",
     "item.butchery.drained_enderman": "Drained Enderman Carcass",
-    "item.butchery.themightymeatball": "The Mighty Meatball"
+    "item.butchery.themightymeatball": "The Mighty Meatball",
+    "entity.butchery.dragon": "Dragon",
+    "enchantment.butchery.hunter": "Hunter",
+    "enchantment.butchery.hunter.desc": "Allows carcasses to drop when placed on bows and crossbows.",
+    "enchantment.butchery.butcherstouch.desc": "Allows carcasses to drop when placed on weapons and tools.",
+    "item.butchery.enderman_heart.description_0": "§8§oRight click whilst holding in your off hand with a knife in your main.",
+    "block.butchery.elder_spike_trap": "Elder Spike Trap",
+    "block.butchery.elder_spike_trap.description_0": "§7A spike trap made from Elder Guardian spikes. Applies mining fatigue effect and damageon contact",
+    "advancements.firstjoin.title": "First Join",
+    "advancements.firstjoin.descr": "You joined a new world!",
+    "item.butchery.cooked_human_meat": "Cooked Human Meat",
+    "item.butchery.raw_human_meat": "Raw Human Meat",
+    "config.jade.plugin_butchery.player_corpse_status": "Player Corpse Status"
 }

@@ -15,7 +15,7 @@
         {
             "type": "patchouli:crafting",
             "recipe": "butchery:bloodgraterecipe",
-            "text": "The blood grate can be changed to support blood from other mods. To do this you will need to craft the $(l:butchery:items/butchers_papers)Butchers Papers$(), once crafted simply right click the blood grate and it will cycle through the supported mods blood."
+            "text": "Blood from other mods that are supported can be obtain from the blood grate. Do do this you simply need a bucket or a bottle, whilst holding either of these hold Shift and right click the air. This will change the type of blood received."
         }
     ]
 }

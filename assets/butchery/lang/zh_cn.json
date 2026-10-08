@@ -890,5 +890,17 @@
     "item.butchery.bird_foot": "鸡爪",
     "item.butchery.enderman": "末影人尸体",
     "item.butchery.drained_enderman": "末影人尸体(已放血)",
-    "item.butchery.themightymeatball": "巨力肉丸"
+    "item.butchery.themightymeatball": "巨力肉丸",
+    "entity.butchery.dragon": "龙",
+    "enchantment.butchery.hunter": "猎人",
+    "enchantment.butchery.hunter.desc": "使弓和弩击杀的生物掉落尸体。",
+    "enchantment.butchery.butcherstouch.desc": "使武器和工具击杀的生物掉落尸体。",
+    "item.butchery.enderman_heart.description_0": "§8§o主手持刀、副手持此物品时右键点击。",
+    "block.butchery.elder_spike_trap": "远古尖刺陷阱",
+    "block.butchery.elder_spike_trap.description_0": "§7使用远古守护者刺做的陷阱。碰到会有挖掘疲劳和伤害",
+    "advancements.firstjoin.title": "初来乍到",
+    "advancements.firstjoin.descr": "你加入了一个新世界！",
+    "item.butchery.cooked_human_meat": "熟人肉",
+    "item.butchery.raw_human_meat": "生人肉",
+    "config.jade.plugin_butchery.player_corpse_status": "玩家尸体状态"
 }

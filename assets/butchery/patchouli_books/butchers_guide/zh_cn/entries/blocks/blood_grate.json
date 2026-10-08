@@ -15,7 +15,7 @@
         {
             "type": "patchouli:crafting",
             "recipe": "butchery:bloodgraterecipe",
-            "text": "排血渠可以更改以支持来自其他模组的血液。为此，你需要制作$(l:butchery:items/butchers_papers)散装屠夫指南$()，制作完成后，只需右键点击排血渠，它就会循环切换支持的模组血液。"
+            "text": "来自其他受支持模组的血液也可以从排血渠中获取。要做到这一点，你只需要一个桶或一个瓶子，手持其中任意一个，按住Shift并右键点击空气。这会切换所接收的血液类型。"
         }
     ]
 }
